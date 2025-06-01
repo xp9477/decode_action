@@ -1,1905 +1,619 @@
-//Sun Jun 01 2025 02:52:12 GMT+0000 (Coordinated Universal Time)
+//Sun Jun 01 2025 05:29:12 GMT+0000 (Coordinated Universal Time)
 //Base:<url id="cv1cref6o68qmpt26ol0" type="url" status="parsed" title="GitHub - echo094/decode-js: JS混淆代码的AST分析工具 AST analysis tool for obfuscated JS code" wc="2165">https://github.com/echo094/decode-js</url>
 //Modify:<url id="cv1cref6o68qmpt26olg" type="url" status="parsed" title="GitHub - smallfawn/decode_action: 世界上本来不存在加密，加密的人多了，也便成就了解密" wc="741">https://github.com/smallfawn/decode_action</url>
-var VgYNyTy = Object['\x64\x65\x66\x69\x6e\x65\x50\x72\x6f\x70\x65\x72\x74\x79'],
-  MMxuxk,
-  ck8s9V,
-  xYNdMPd,
-  XBU8lys,
-  bbpLmL,
-  vshZIh,
-  zy6DXaJ,
-  NsaYM3,
-  A4Xk1H;
-function C4ZcXUu() {
+var fakerkf3hge = Object['defineProperty'],
+  fakerehu6sb,
+  fakertd9mvl,
+  fakerzxoq6,
+  fakerxxmny,
+  faker8prnp6,
+  fakerpolyc,
+  fakeru75c5q,
+  faker3ce6o5,
+  fakerml620h;
+function faker84feze() {
   return globalThis;
 }
-function OY7Icg0() {
+function fakerc5h5as() {
   return global;
 }
-function knDV3a() {
+function faker7k6ebc() {
   return window;
 }
-function duR_8gD() {
-  return new Function('\u0072\u0065\u0074\u0075\u0072\u006e\u0020\u0074\u0068\u0069\u0073')();
+function fakerx1hw81() {
+  return new Function('return this')();
 }
-function mzhhr6(VgYNyTy = [C4ZcXUu, OY7Icg0, knDV3a, duR_8gD], BniLr69, tFJne0H = [], MMxuxk, ck8s9V) {
-  BniLr69 = BniLr69;
+function fakererf2ip(fakerkf3hge = [faker84feze, fakerc5h5as, faker7k6ebc, fakerx1hw81], fakernvk8yo, fakerehu6sb = [], fakertd9mvl, fakerzxoq6) {
+  fakernvk8yo = fakernvk8yo;
   try {
-    BniLr69 = Object
-    tFJne0H.push(''["__proto__"].constructor["name"])
+    fakernvk8yo = Object
+    fakerehu6sb.push(''.__proto__.constructor.name)
   } catch (e) {}
-  _JekFH: for (MMxuxk = 0; MMxuxk < VgYNyTy["length"]; MMxuxk++) try {
-    BniLr69 = VgYNyTy[MMxuxk]();
-    for (ck8s9V = 0; ck8s9V < tFJne0H.length; ck8s9V++) {
-      if (typeof BniLr69[tFJne0H[ck8s9V]] === "undefined") {
-        continue _JekFH;
-      }
+  faCnvtE: for (fakertd9mvl = 0; fakertd9mvl < fakerkf3hge.length; fakertd9mvl++) try {
+    fakernvk8yo = fakerkf3hge[fakertd9mvl]();
+    for (fakerzxoq6 = 0; fakerzxoq6 < fakerehu6sb.length; fakerzxoq6++) if (typeof fakernvk8yo[fakerehu6sb[fakerzxoq6]] === 'undefined') {
+      continue faCnvtE;
     }
-    return BniLr69;
+    return fakernvk8yo;
   } catch (e) {}
-  return BniLr69 || this;
+  return fakernvk8yo || this;
 }
-MMxuxk = mzhhr6() || {}
-ck8s9V = MMxuxk.TextDecoder
-xYNdMPd = MMxuxk["Uint8Array"]
-XBU8lys = MMxuxk["Buffer"]
-bbpLmL = MMxuxk.String || String
-vshZIh = MMxuxk["Array"] || Array
-function Q6nWU1n(...VgYNyTy) {
-  return VgYNyTy[VgYNyTy["length"] - 0x1];
+fakerehu6sb = fakererf2ip() || {}
+fakertd9mvl = fakerehu6sb.TextDecoder
+fakerzxoq6 = fakerehu6sb.Uint8Array
+fakerxxmny = fakerehu6sb.Buffer
+faker8prnp6 = fakerehu6sb.String || String
+fakerpolyc = fakerehu6sb.Array || Array
+function faker1ovib(...fakerkf3hge) {
+  return fakerkf3hge[fakerkf3hge["length"] - 1];
 }
-function LfC6u4(qeV5fNe, VgYNyTy) {
-  switch (NsaYM3) {
-    case -5:
-      return qeV5fNe + VgYNyTy;
-    case -49:
-      return qeV5fNe * VgYNyTy;
-    case 58:
-      return qeV5fNe - VgYNyTy;
-    case 0x18:
-      return qeV5fNe / VgYNyTy;
-    case 0x41:
-      return -qeV5fNe;
-    case 13:
-      return !qeV5fNe;
-    case -0x1d:
-      return typeof qeV5fNe;
+function fakerthxo6m(fakerirhmu, fakerkf3hge) {
+  switch (faker3ce6o5) {
+    case 39:
+      return !fakerirhmu;
+    case 20:
+      return fakerirhmu / fakerkf3hge;
+    case -0x26:
+      return fakerirhmu + fakerkf3hge;
+    case 48:
+      return fakerirhmu * fakerkf3hge;
+    case 61:
+      return -fakerirhmu;
   }
 }
-function maWRLIF(qeV5fNe) {
-  return Q6nWU1n(qeV5fNe = NsaYM3 + (NsaYM3 = qeV5fNe, 0), qeV5fNe);
+function fakerj8vr6j(fakerirhmu) {
+  return faker1ovib(fakerirhmu = faker3ce6o5 + (faker3ce6o5 = fakerirhmu, 0x0), fakerirhmu);
 }
-NsaYM3 = NsaYM3;
-function MInkId(VgYNyTy, BniLr69) {
-  return A4Xk1H["call"](null, VgYNyTy, "length", {
-    ["value"]: BniLr69,
+faker3ce6o5 = faker3ce6o5;
+function fakerjhvl5(fakerkf3hge, fakernvk8yo) {
+  return fakerml620h["call"](null, fakerkf3hge, "length", {
+    ["value"]: fakernvk8yo,
     ["configurable"]: true
   });
 }
-A4Xk1H = Object["defineProperty"];
-const kQVPrbF = require('crypto-js'),
-  ORldMtE = require('querystring'),
-  OvT5KIy = require('./Rebels_jdCommon'),
-  s6CK1K = function () {
-    var ck8s9V, xYNdMPd;
-    ck8s9V = Object.create(null)
-    xYNdMPd = []
-    const bbpLmL = [],
-      vshZIh = [],
-      zy6DXaJ = [...bbpLmL, ...vshZIh],
-      A4Xk1H = ["B6dB3QqGZP1lKNICTaiAeNJSHKNepO5GGgtL6FUceqSlpFZCdx2SZ5MPPbzrgy91HeR0dnJazcMrvMgPF7bhFrfsGaApJKk4JohEEhoJ4kKJpAaGsfrFhb7FPgMvrMczaJnd0ReH19ygrzbPPM5ZS2xdCZFplSqecUF6LtgGG5OpeNKHSJNeAiaTCINKl1PZGqQ3Bd6B", "EUhzJoyKP7VydtpyBwNUGU2tqzI0QB0LIpQ10Fk3hX2ZcPoGRpACqmzcTQbKd98i3U7raFz2rMl2kys0ODgtAh22E3i57wmh38RbbR83hmw75i3E22hAtgDO0syk2lMr2zFar7U3i89dKbQTczmqCApRGoPcZ2Xh3kF01QpIL0BQ0Izqt2UGUNwByptdyV7PKyoJzhUE", "xexcHoyVwOs5TYTQVvU0iXn56ryKVdWedLTpq3KEKmbUHfwzuZjIpZOPVXMEappFhjdqwtp1bBrWaRBCfPFwCq2W8SsyvwqZ6sIGGIs6ZqwvysS8W2qCwFPfCBRaWrBb1ptwqdjhFppaEMXVPOZpIjZuzwfHUbmKEK3qpTLdeWdVKyr65nXi0UvVQTYT5sOwVyoHcxex", "2Llnegc5i4flqd4HZPFK210yh61boBxRSdnNVMeudKimx92Qi4aPuHP12HmEImbWrXjLgBGqy1bSnKvLhqMqhknyuse4nFoeLTkJJkTLeoFn4esuynkhqMqhLvKnSb1yqGBgLjXrWbmIEmH21PHuPa4iQ29xmiKdueMVNndSRxBob16hy012KFPZH4dqlf4i5cgenlL2", "dZzoMZF6xtt3voTFDbPzEZ7GeM8t7uY05d4K4xfhtdxELh96dDRB4oRYA2smET5dy1dafGkXOz2V7tNOVi0vSqfuhI99IKprVK6QQ6KVrpKI99IhufqSv0iVONt7V2zOXkGfad1yd5TEms2AYRo4BRDd69hLExdthfx4K4d50Yu7t8MeG7ZEzPbDFTov3ttx6FZMozZd", "SNYr3bWMtQulWZO2FEwuhSFp3EXPR1TujPRJwUFlxBh9Pvf2MeTEpR7a3dU6e9rNUMyBh2osDdK4Vdm4gZ0XcRCoHZPi2jiXT2dCCd2TXij2iPZHoCRcX0Zg4mdV4KdDso2hByMUNr9e6Ud3a7RpETeM2fvP9hBxlFUwJRPjuT1RPXE3pFShuwEF2OZWluQtMWb3rYNS", "4viQ2FrYHcrH44gqvPLo6KtiFu56AW1eXbDBZrBepzdLKE33Ey4TwFERnkVLnbHAXbKqAi0HFP9Eu7yg8WNlI7q2dvXGGiPaMbrBBrbMaPiGGXvd2q7IlNW8gy7uE9PFH0iAqKbXAHbnLVknREFwT4yE33EKLdzpeBrZBDbXe1WA65uFitK6oLPvqg44HrcHYrF2Qiv4", "0VIoSHBNVAW8De7NquFyEUm0o9xNnQJGn2OR1yOK9djWALhyP3a1XoQEwTnXuzypRuwsaLPUlertksOY6LYmnbQmPgdDQRXXKdKooKdKXXRQDdgPmQbnmYL6YOsktrelUPLaswuRpyzuXnTwEQoX1a3PyhLAWjd9KOy1RO2nGJQnNx9o0mUEyFuqN7eD8WAVNBHSoIV0", "fdJPBiTra9E0qg2HJrobeEC2SkOfSzbw6nG5J5ACx42GQDBsCyGfxNlHHYhl7EmkdvYaKAXUVXSKcTT1KhyYaj9Q4YtyhnOA7cLrrLc7AOnhytY4Q9jaYyhK1TTcKSXVUXAKaYvdkmE7lhYHHlNxfGyCsBDQG24xCA5J5Gn6wbzSfOkS2CEeborJH2gq0E9arTiBPJdf", "kLOA93PyUOX3QdlLuZ9JgNq1peyIITAQSnKzuLBZ2NthOSseAJMGCecvSLVKAww61Y31hJ4l7kAOcjLmtqQNJlNyJb5yu9d9vqWUUWqv9d9uy5bJyNlJNQqtmLjcOAk7l4Jh13Y16wwAKVLSvceCGMJAesSOhtN2ZBLuzKnSQATIIyep1qNgJ9ZuLldQ3XOUyP39AOLk"];
-    function C4ZcXUu(VgYNyTy, BniLr69, MMxuxk) {
-      let zy6DXaJ = LfC6u4(Date["now"](), parseInt(MMxuxk), NsaYM3 = -5);
-      if (typeof VgYNyTy !== "object") {
-        VgYNyTy = JSON["parse"](VgYNyTy);
-      }
-      let A4Xk1H = Q6nWU1n(VgYNyTy["nowTime"] = zy6DXaJ, LfC6u4(BniLr69, zy6DXaJ, NsaYM3 = -5));
-      const {
-          ["keyBytes"]: C4ZcXUu,
-          ["ivBytes"]: OY7Icg0
-        } = (xYNdMPd = [A4Xk1H], mzhhr6("voOOH8r")),
-        knDV3a = kQVPrbF["AES"]["encrypt"](JSON["stringify"](VgYNyTy), C4ZcXUu, {
-          ["iv"]: OY7Icg0,
-          ["mode"]: kQVPrbF["mode"]["ECB"],
-          ["padding"]: kQVPrbF["pad"]["Pkcs7"]
-        });
-      return knDV3a["toString"]();
-    }
-    function OY7Icg0(VgYNyTy, BniLr69, MMxuxk) {
-      let OY7Icg0 = LfC6u4(Date["now"](), parseInt(MMxuxk), NsaYM3 = -5),
-        knDV3a = LfC6u4(BniLr69, OY7Icg0, maWRLIF(-5));
-      const {
-          ["keyBytes"]: duR_8gD,
-          ["ivBytes"]: awPkCm
-        } = (xYNdMPd = [knDV3a], new mzhhr6("voOOH8r", undefined, "KMxmFc9").xaKjgn),
-        Q6nWU1n = kQVPrbF["AES"]["decrypt"](VgYNyTy, duR_8gD, {
-          ["iv"]: awPkCm,
-          ["mode"]: kQVPrbF["mode"]["ECB"],
-          ["padding"]: kQVPrbF["pad"]["Pkcs7"]
-        }),
-        MInkId = kQVPrbF["enc"]["Utf8"]["stringify"](Q6nWU1n)["toString"]();
-      try {
-        var ORldMtE = "parse";
-        return JSON[ORldMtE](MInkId);
-      } catch {
-        return MInkId;
-      }
-    }
-    const knDV3a = (() => {
-        const xYNdMPd = kQVPrbF["enc"]["Utf8"]["parse"]("Hd5W5ONsYKmGm9QA"),
-          bbpLmL = kQVPrbF["enc"]["Utf8"]["parse"]("2JjUvJEAsA2Yog==");
-        function vshZIh(VgYNyTy) {
-          if (typeof VgYNyTy !== "string") {
-            VgYNyTy = JSON["stringify"](VgYNyTy);
-          }
-          const A4Xk1H = kQVPrbF["enc"]["Utf8"]["parse"](VgYNyTy),
-            C4ZcXUu = kQVPrbF.AES.encrypt(A4Xk1H, xYNdMPd, {
-              iv: bbpLmL,
-              mode: kQVPrbF.mode.CBC,
-              padding: kQVPrbF.pad.Pkcs7
-            });
-          return kQVPrbF["enc"]["Base64"]["stringify"](C4ZcXUu["ciphertext"]);
-        }
-        function zy6DXaJ(VgYNyTy) {
-          const vshZIh = kQVPrbF["enc"]["Base64"]["parse"](VgYNyTy),
-            zy6DXaJ = kQVPrbF.enc.Base64.stringify(vshZIh),
-            A4Xk1H = kQVPrbF.AES.decrypt(zy6DXaJ, xYNdMPd, {
-              iv: bbpLmL,
-              mode: kQVPrbF.mode.CBC,
-              padding: kQVPrbF.pad.Pkcs7
-            }),
-            C4ZcXUu = kQVPrbF["enc"]["Utf8"]["stringify"](A4Xk1H)["toString"]();
-          try {
-            return JSON["parse"](C4ZcXUu);
-          } catch {
-            return C4ZcXUu;
-          }
-        }
-        return {
-          ["encrypt"]: vshZIh,
-          ["decrypt"]: zy6DXaJ
-        };
-      })(),
-      duR_8gD = (() => {
-        const BniLr69 = kQVPrbF["enc"]["Utf8"]["parse"]("12345678@guanmei"),
-          MMxuxk = kQVPrbF["enc"]["Utf8"]["parse"]("DYgjCEIMVrj2W9xN");
-        function ck8s9V(ck8s9V) {
-          if (typeof ck8s9V !== "string" && 1) {
-            var zy6DXaJ = ["stringify"];
-            ck8s9V = JSON[zy6DXaJ[0x0]](ck8s9V);
-          }
-          const A4Xk1H = kQVPrbF["enc"]["Utf8"]["parse"](ck8s9V),
-            C4ZcXUu = kQVPrbF.AES.encrypt(A4Xk1H, BniLr69, {
-              iv: MMxuxk,
-              mode: kQVPrbF.mode.CBC,
-              padding: kQVPrbF.pad.Pkcs7
-            });
-          return kQVPrbF["enc"]["Base64"]["stringify"](C4ZcXUu["ciphertext"]);
-        }
-        function xYNdMPd(ck8s9V) {
-          let C4ZcXUu = ck8s9V;
-          try {
-            C4ZcXUu = decodeURIComponent(ck8s9V);
-          } catch (decodeError) {}
-          const OY7Icg0 = kQVPrbF["AES"]["decrypt"](C4ZcXUu, BniLr69, {
-            iv: MMxuxk,
-            ["mode"]: kQVPrbF["mode"]["CBC"],
-            ["padding"]: kQVPrbF["pad"]["Pkcs7"]
-          })["toString"](kQVPrbF["enc"]["Utf8"]);
-          try {
-            return JSON["parse"](OY7Icg0);
-          } catch {
-            return OY7Icg0;
-          }
-        }
-        function bbpLmL(ck8s9V) {
-          try {
-            const bbpLmL = kQVPrbF["enc"]["Hex"]["parse"](ck8s9V),
-              vshZIh = kQVPrbF.AES.decrypt({
-                ciphertext: bbpLmL
-              }, BniLr69, {
-                iv: MMxuxk,
-                mode: kQVPrbF.mode.CBC,
-                padding: kQVPrbF.pad.Pkcs7
-              });
-            return vshZIh["toString"](kQVPrbF["enc"]["Utf8"]);
-          } catch (error) {
-            return Q6nWU1n(console["error"]("解密失败:", error), null);
-          }
-        }
-        return {
-          ["encrypt"]: ck8s9V,
-          ["decrypt"]: xYNdMPd,
-          ["decryptHex"]: bbpLmL
-        };
-      })();
-    return {
-      ["encrypt"]: C4ZcXUu,
-      ["decrypt"]: OY7Icg0,
-      ["isDefenseApi"]: mzhhr6("e09Lxr6", "v1qPQP"),
-      ["interactionV2"]: knDV3a,
-      ["cryptoHelper"]: duR_8gD
-    };
-    function mzhhr6(VgYNyTy, BniLr69, MMxuxk, bbpLmL, vshZIh, C4ZcXUu) {
-      bbpLmL = {
-        ["oo8R_2o"]: (VgYNyTy, BniLr69, MMxuxk, bbpLmL, vshZIh) => {
-          var [OY7Icg0] = xYNdMPd;
-          const ck8s9V = Q6nWU1n(OY7Icg0 = OY7Icg0["split"]('')["reverse"]()["join"](''), new Uint8Array(12)),
-            zy6DXaJ = new TextEncoder()["encode"](OY7Icg0);
-          for (let A4Xk1H = 0; A4Xk1H < zy6DXaJ["length"]; A4Xk1H += 0x2) {
-            let knDV3a = zy6DXaJ[A4Xk1H] << 0x5 | zy6DXaJ[A4Xk1H + 0x1] & 0xff;
-            knDV3a %= 0x3f
-            ck8s9V[A4Xk1H >> 1] = knDV3a
-          }
-          let duR_8gD = '';
-          for (let A4Xk1H = 0x0; A4Xk1H < ck8s9V["length"]; A4Xk1H++) {
-            duR_8gD += LfC6u4(ck8s9V[A4Xk1H], 0x100, NsaYM3 = -5)["toString"](2)["slice"](1)
-          }
-          let awPkCm = '',
-            Sgwr21 = '';
-          for (let A4Xk1H = 0x0; A4Xk1H < 0x10; A4Xk1H++) {
-            if (A4Xk1H !== 0x0) {
-              const wZlU164 = LfC6u4(A4Xk1H, 6, maWRLIF(-49)),
-                t3ipKLE = duR_8gD["substring"](wZlU164, LfC6u4(wZlU164, 6, maWRLIF(-0x5)));
-              let MInkId = parseInt(t3ipKLE, 0x2);
-              const kQVPrbF = Sgwr21["split"]('');
-              for (let ORldMtE = 0; ORldMtE < kQVPrbF["length"]; ORldMtE++) if (kQVPrbF[ORldMtE] === '\u0031') {
-                MInkId = (MInkId >> 6 - ORldMtE | MInkId << ORldMtE) & 63;
-              }
-              Sgwr21 = (MInkId & 0x3f)["toString"](2)["padStart"](6, "0");
-            } else {
-              Sgwr21 = duR_8gD["substring"](0, 0x6);
-            }
-            awPkCm += Sgwr21;
-          }
-          for (let A4Xk1H = 0x0; A4Xk1H < 12; A4Xk1H++) {
-            const wZlU164 = LfC6u4(A4Xk1H, 8, NsaYM3 = -49);
-            ck8s9V[A4Xk1H] = parseInt(awPkCm["substring"](wZlU164, LfC6u4(wZlU164, 8, maWRLIF(-0x5))), 0x2);
-          }
-          return btoa(String["fromCharCode"]["apply"](null, ck8s9V));
-        },
-        ["e09Lxr6"]: () => {
-          var [VgYNyTy] = xYNdMPd;
-          const BniLr69 = Object["fromEntries"](zy6DXaJ["map"](VgYNyTy => [VgYNyTy, true]));
-          return BniLr69[VgYNyTy] !== undefined;
-        },
-        ["voOOH8r"]: (VgYNyTy, BniLr69, MMxuxk, bbpLmL, vshZIh = '', C4ZcXUu, OY7Icg0, ck8s9V, zy6DXaJ, knDV3a, duR_8gD, awPkCm, MInkId, ORldMtE) => {
-          var [s6CK1K] = xYNdMPd;
-          const RxgSdcu = s6CK1K["substring"](0x0, LfC6u4(s6CK1K["length"], 0x5, NsaYM3 = 0x3a));
-          let TpKTbe = '';
-          for (let C4ZcXUu = 0; C4ZcXUu < RxgSdcu["length"]; C4ZcXUu++) {
-            let e8xYmP = RxgSdcu["charCodeAt"](C4ZcXUu),
-              Kc732T = e8xYmP % 0xa,
-              WWgjWcG = A4Xk1H[Kc732T][C4ZcXUu];
-            TpKTbe += WWgjWcG;
-          }
-          MMxuxk = TpKTbe["length"]
-          bbpLmL = Math["floor"](LfC6u4(MMxuxk, 0x18, NsaYM3 = 24))
-          for (C4ZcXUu = 0; C4ZcXUu < 0x18; C4ZcXUu++) {
-            zy6DXaJ = LfC6u4(C4ZcXUu + 1, bbpLmL, maWRLIF(-0x31))
-            if (C4ZcXUu === 0x17) {
-              zy6DXaJ = MMxuxk;
-            }
-            knDV3a = TpKTbe["substring"](LfC6u4(C4ZcXUu, bbpLmL, NsaYM3 = -0x31), zy6DXaJ)
-            duR_8gD = []
-            for (awPkCm = 0x0; awPkCm < knDV3a["length"]; awPkCm++) duR_8gD["push"](knDV3a["charCodeAt"](awPkCm));
-            MInkId = duR_8gD["reduce"]((VgYNyTy, BniLr69) => {
-              return LfC6u4(VgYNyTy, BniLr69, NsaYM3 = -0x5);
-            }, 0)
-            ORldMtE = Math["floor"](LfC6u4(MInkId, duR_8gD["length"], maWRLIF(24)))
-            vshZIh += String["fromCharCode"](ORldMtE)
-          }
-          const kXi1E7 = Q6nWU1n(TpKTbe = vshZIh, (xYNdMPd = [TpKTbe], new mzhhr6("oo8R_2o", undefined, "KMxmFc9").xaKjgn)),
-            wqvj0y = kQVPrbF["enc"]["Utf8"]["parse"](kXi1E7),
-            U0U8GC = kQVPrbF["enc"]["Utf8"]["parse"]('');
-          return {
-            ["keyBytes"]: wqvj0y,
-            ["ivBytes"]: U0U8GC
-          };
-        }
-      }
-      vshZIh = vshZIh
-      if (BniLr69 == "eUa1Xy") {
-        xYNdMPd = [];
-      }
-      C4ZcXUu = {
-        ["oo8R_2o"]: 0x1,
-        ["e09Lxr6"]: 1,
-        ["voOOH8r"]: 0x1
-      };
-      function OY7Icg0() {
-        var MMxuxk = function (...BniLr69) {
-            return Q6nWU1n(xYNdMPd = BniLr69, bbpLmL[VgYNyTy].call(this));
-          },
-          vshZIh = C4ZcXUu[VgYNyTy];
-        if (vshZIh && true) {
-          return MInkId(MMxuxk, vshZIh);
-        }
-        return MMxuxk;
-      }
-      vshZIh = BniLr69 == "v1qPQP" ? ck8s9V[VgYNyTy] || (ck8s9V[VgYNyTy] = OY7Icg0()) : bbpLmL[VgYNyTy]();
-      return MMxuxk == "KMxmFc9" ? {
-        xaKjgn: vshZIh
-      } : vshZIh;
-    }
-  }();
-async function RxgSdcu(VgYNyTy, BniLr69, MMxuxk = {}, ck8s9V = {}) {
-  let XBU8lys = {
-    ["eid"]: '',
-    ["jsToken"]: '',
-    fp: ''
-  };
-  function bbpLmL(VgYNyTy) {
-    var ck8s9V, XBU8lys;
-    ck8s9V = Q6nWU1n(VgYNyTy = JSON["stringify"](VgYNyTy), VgYNyTy = encodeURIComponent(VgYNyTy), '')
-    XBU8lys = 0x0
-    do {
-      var bbpLmL, vshZIh, zy6DXaJ, A4Xk1H, C4ZcXUu, OY7Icg0;
-      bbpLmL = VgYNyTy["charCodeAt"](XBU8lys++)
-      vshZIh = VgYNyTy["charCodeAt"](XBU8lys++)
-      zy6DXaJ = VgYNyTy["charCodeAt"](XBU8lys++)
-      A4Xk1H = bbpLmL >> 2
-      C4ZcXUu = Q6nWU1n(bbpLmL = (bbpLmL & 3) << 4 | vshZIh >> 4, (vshZIh & 0xf) << 2 | zy6DXaJ >> 0x6)
-      OY7Icg0 = zy6DXaJ & 0x3f
-      isNaN(vshZIh) ? C4ZcXUu = OY7Icg0 = 0x40 : isNaN(zy6DXaJ) && (OY7Icg0 = 0x40)
-      ck8s9V = LfC6u4(ck8s9V + "23IL<N01c7KvwZO56RSTAfghiFyzWJqVabGH4PQdopUrsCuX*xeBjkltDEmn89.-"["charAt"](A4Xk1H) + "23IL<N01c7KvwZO56RSTAfghiFyzWJqVabGH4PQdopUrsCuX*xeBjkltDEmn89.-"["charAt"](bbpLmL) + "23IL<N01c7KvwZO56RSTAfghiFyzWJqVabGH4PQdopUrsCuX*xeBjkltDEmn89.-"["charAt"](C4ZcXUu), "23IL<N01c7KvwZO56RSTAfghiFyzWJqVabGH4PQdopUrsCuX*xeBjkltDEmn89.-"["charAt"](OY7Icg0), maWRLIF(-0x5))
-    } while (XBU8lys < VgYNyTy["length"] && true);
-    return LfC6u4(ck8s9V, "/", NsaYM3 = -5);
+fakerml620h = Object["defineProperty"];
+const fakerzu9rqg = require('./jdCookie'),
+  fakerypclxk = require('./utils/Rebels_jdCommon'),
+  fakerlc7wjb = require('./utils/Rebels_sendJDNotify'),
+  {
+    ["H5st"]: faker5dyqu,
+    ["jsTk"]: faker1756ia
+  } = require('./utils/Rebels_H'),
+  faker72zsq7 = require('crypto-js');
+let fakerm24nqv = process["env"]["jd_618_url"] || '',
+  fakerdlfxnm = (process["env"]["jd_618_ids"] || '')["split"](/[,@\n]+/g)["map"](fakerirhmu => {
+    var fakerkf3hge = ["trim"];
+    return fakerirhmu[fakerkf3hge[0]]();
+  })["filter"](Boolean),
+  fakerxznzv = process["env"]["jd_618_maxdraw"] || '3',
+  fakergm37sc = process["env"]["jd_618_threads"] || "1";
+const fakerwk4xx8 = process["env"]["jd_618_interval"] || "2000",
+  faker0vfw9 = (process["env"]["jd_618_notify"] || process["env"]["jd_618_Notify"]) === "true",
+  faker1payhd = (process["env"]["jd_618_pinFilter"] || '')["split"]('@'),
+  faker7uz3oc = 0x19783c4c400,
+  fakere3ebx = 5;
+let fakerxsp59r = "31216",
+  fakertoflk,
+  fakerrhs9ph,
+  fakerxljcwo = Object["keys"](fakerzu9rqg)["map"](fakerirhmu => fakerzu9rqg[fakerirhmu])["filter"](fakerirhmu => fakerirhmu);
+if (fakerthxo6m(fakerxljcwo[0], faker3ce6o5 = 0x27)) {
+  var faker4ukp66 = "name";
+  $["msg"]($[faker4ukp66], "【提示】请先获取Cookie")
+  process["exit"](1)
+}
+const fakerxht4bs = {
+  [1]: "[红包]",
+  [3]: "[优惠券]",
+  0x6: "[打折券]",
+  [17]: "[立减券]",
+  0x12: "[实物]",
+  [19]: "[超市卡]"
+};
+fakerthxo6m((async () => {
+  if (faker1ovib(fakerlc7wjb["config"]({
+    ["title"]: $["name"]
+  }), await fakerouo4wj(), faker0vfw9 && fakerlc7wjb["getMessage"]())) {
+    await fakerlc7wjb["push"]();
   }
+})()["catch"](fakerirhmu => $["logErr"](fakerirhmu))["finally"](() => {
+  return $["done"]();
+}), fakerj8vr6j(0x27));
+async function fakerouo4wj() {
   try {
-    const OY7Icg0 = WWgjWcG["hash128"]([VgYNyTy["substring"](0, 90), "zh-CN", "applewebkit_chrome", "605.1.15", '\u004e\u0041', "NA", 0x20, "932x430", LfC6u4(0x1e0, maWRLIF(65)), "sessionStorageKey", "localStorageKey", "indexedDbKey", "openDatabase", "NA", "iPhone", 10, "NA", '', null, null]["join"]("~~~"), 0x1f),
-      knDV3a = Q6nWU1n(XBU8lys["fp"] = OY7Icg0, bbpLmL(Object["assign"]({}, {
-        ["pin"]: '',
-        ["oid"]: '',
-        ["bizId"]: "jd-babelh5",
-        fc: '',
-        ["mode"]: "strict",
-        ["p"]: /^https:/["test"](BniLr69) ? "s" : '\u0068',
-        fp: OY7Icg0,
-        ["ctype"]: 0x1,
-        v: "3.2.1.1",
-        f: '\x33',
-        o: BniLr69["replace"](/^https?:\/\//, ''),
-        ["qs"]: '',
-        ["jsTk"]: '',
-        qi: '',
-        ["stk"]: ''
-      }, MMxuxk))),
-      duR_8gD = bbpLmL(Object["assign"]({}, {
-        ts: {
-          ["deviceTime"]: Date["now"](),
-          ["deviceEndTime"]: LfC6u4(Date["now"](), 0x14, maWRLIF(-0x5))
-        },
-        ca: {
-          ["tdHash"]: ''
-        },
-        m: {
-          ["compatMode"]: "CSS1Compat"
-        },
-        fo: ["Bauhaus 93", "Chalkduster", "Impact", "Menlo", "Papyrus", "Rockwell"],
-        n: {
-          ["standalone"]: false,
-          ["hardwareConcurrency"]: 4,
-          ["webdriver"]: false,
-          ["maxTouchPoints"]: 0x5,
-          ["cookieEnabled"]: true,
-          ["appCodeName"]: "Mozilla",
-          ["appName"]: "Netscape",
-          ["appVersion"]: /\/(.+)/g["exec"](VgYNyTy) && /\/(.+)/g["exec"](VgYNyTy)[0x1] || VgYNyTy,
-          ["platform"]: "iPhone",
-          ["product"]: "Gecko",
-          ["productSub"]: "20030107",
-          ["userAgent"]: VgYNyTy,
-          ["vendor"]: "Apple Computer, Inc.",
-          ["vendorSub"]: '',
-          ["language"]: "zh-CN",
-          ["onLine"]: true,
-          ["pdfViewerEnabled"]: true,
-          ["javaEnabled"]: false,
-          ["enumerationOrder"]: ["sendBeacon", "standalone", "hardwareConcurrency", "clipboard", "audioSession", "credentials", "geolocation", "mediaCapabilities", "mediaSession", "mediaDevices", "permissions", "wakeLock", "locks", "webdriver", "maxTouchPoints", "userActivation", "cookieEnabled", "appCodeName", "appName", "appVersion", "platform", "product", "productSub", "userAgent", "vendor", "vendorSub", "language", "languages", "onLine", "plugins", "mimeTypes", "pdfViewerEnabled", "storage", "requestMediaKeySystemAccess", "getGamepads", "javaEnabled", "canShare", "share"]
-        },
-        ["p"]: [],
-        ["w"]: {
-          ["devicePixelRatio"]: 1,
-          ["screenTop"]: 0,
-          ["screenLeft"]: 0x0
-        },
-        ["s"]: {
-          ["availHeight"]: 844,
-          ["availWidth"]: 390,
-          ["colorDepth"]: 24,
-          ["height"]: 0x34c,
-          ["width"]: 390,
-          ["pixelDepth"]: 24
-        },
-        sc: {
-          ["ActiveBorder"]: "rgb(118, 118, 118)",
-          ["ActiveCaption"]: "rgb(0, 0, 0)",
-          ["AppWorkspace"]: "rgb(255, 255, 255)",
-          ["Background"]: "rgb(255, 255, 255)",
-          ["ButtonFace"]: "rgb(239, 239, 239)",
-          ["ButtonHighlight"]: "rgb(239, 239, 239)",
-          ["ButtonShadow"]: "rgb(239, 239, 239)",
-          ["ButtonText"]: "rgb(0, 0, 0)",
-          ["CaptionText"]: "rgb(0, 0, 0)",
-          ["GrayText"]: "rgb(128, 128, 128)",
-          ["Highlight"]: "rgba(51, 181, 229, 0.4)",
-          ["HighlightText"]: "rgb(255, 255, 255)",
-          ["InactiveBorder"]: "rgb(118, 118, 118)",
-          ["InactiveCaption"]: "rgb(255, 255, 255)",
-          ["InactiveCaptionText"]: "rgb(128, 128, 128)",
-          ["InfoBackground"]: "rgb(255, 255, 255)",
-          ["InfoText"]: "rgb(0, 0, 0)",
-          ["Menu"]: "rgb(255, 255, 255)",
-          ["MenuText"]: "rgb(0, 0, 0)",
-          ["Scrollbar"]: "rgb(255, 255, 255)",
-          ["ThreeDDarkShadow"]: "rgb(118, 118, 118)",
-          ["ThreeDFace"]: "rgb(239, 239, 239)",
-          ["ThreeDHighlight"]: "rgb(118, 118, 118)",
-          ["ThreeDLightShadow"]: "rgb(118, 118, 118)",
-          ["ThreeDShadow"]: "rgb(118, 118, 118)",
-          ["Window"]: "rgb(255, 255, 255)",
-          ["WindowFrame"]: "rgb(118, 118, 118)",
-          ["WindowText"]: "rgb(0, 0, 0)"
-        },
-        ss: {
-          ["cookie"]: true,
-          ["localStorage"]: true,
-          ["sessionStorage"]: true,
-          ["globalStorage"]: false,
-          ["indexedDB"]: true
-        },
-        tz: LfC6u4(480, maWRLIF(65)),
-        ["lil"]: '',
-        ["wil"]: ''
-      }, ck8s9V)),
-      mzhhr6 = {
-        ["url"]: "https://gia.jd.com/jsTk.do",
-        ["method"]: "POST",
+    try {
+      const fakerq84yc5 = parseInt(fakergm37sc);
+      if (fakerq84yc5 > 0 && fakerq84yc5 !== 0x1) {
+        fakergm37sc = fakerq84yc5;
+      }
+    } catch {
+      fakergm37sc = 1;
+    }
+    if (faker1ovib(fakergm37sc = Math["min"](fakergm37sc, fakere3ebx), $["waitTime"] = null, fakerwk4xx8) && true) {
+      try {
+        const faker28epj = parseInt(fakerwk4xx8);
+        if (faker28epj >= 0) {
+          $["waitTime"] = faker28epj;
+        }
+      } catch {
+        console["log"]("⚠ 自定义运行间隔时长设置错误");
+      }
+    }
+    const fakerz58p8h = faker1ovib($["nowTime"] = Date["now"](), $["time"]("yyyy-MM-dd HH:mm", faker7uz3oc));
+    if (faker7uz3oc && $["nowTime"] > faker7uz3oc) {
+      return faker1ovib(console["log"](`活动已于 ${fakerz58p8h} 结束，下次早点来吧~`), undefined);
+    }
+    const fakerml620h = faker1ovib(console["log"](`==========${$["name"]}变量开启状态==========`), console["log"](`间隔时长: [${fakerthxo6m($["waitTime"], 0x3e8, fakerj8vr6j(0x14))}秒]运行间隔时长`), console["log"](`代理开关: [${fakerypclxk["getProxyStatus"]()}]`), console["log"](`通知推送: [${faker0vfw9 ? '开启' : '关闭'}]`), console["log"](`账号过滤: [${faker1payhd["join"](', ')}]`), console["log"](`==========${$["name"]}变量状态结束==========`), console["log"](''), `jd_${fakerypclxk["genRandomString"](0xd, "0123456789abcdefghijklmnopqrstuvwxyz")}`);
+    if (faker1ovib($.UA = fakerypclxk["genUA"](fakerml620h), /https:\/\/u\.jd\.com\/.+/["test"](fakerm24nqv))) {
+      if (fakerm24nqv["split"]('/')["pop"]()) {
+        var fakerc5h5as = {
+          fakermyjhvc: "split"
+        };
+        if (faker1ovib(fakerm24nqv = fakerm24nqv[fakerc5h5as.fakermyjhvc]('/')["pop"]()["split"]('?')["shift"](), fakerm24nqv["length"]) !== 0x7) {
+          console["log"]("链接后面的字符必须为7位字符")
+          console["log"](`你填写的链接为：${fakerm24nqv}`)
+          console["log"](`请尽快修正，可尝试重启容器，默认继续运行`)
+          fakerm24nqv = ''
+        }
+      } else {
+        console["log"]("请填写正确的链接")
+        console["log"](`你填写的链接为：${fakerm24nqv}`)
+        console["log"](`请尽快修正，可尝试重启容器，默认继续运行`)
+        fakerm24nqv = ''
+      }
+    } else {
+      var faker72zsq7 = "length";
+      fakerm24nqv = fakerm24nqv[faker72zsq7] === 7 && true ? fakerm24nqv : '';
+    }
+    if (faker1ovib(authorCodeList = await fakereszmo("https://updateteam.oss-cn-hangzhou.aliyuncs.com/618.json"), authorCodeList)) {
+      $["authorCode"] = authorCodeList[fakertxqrqq(0x0, authorCodeList["length"])];
+    } else {
+      var fakerxsp59r = ["Q0dzaHZBTw=="];
+      $["authorCode"] = atob(fakerxsp59r[0]);
+    }
+    if (faker1ovib($["red618code"] = fakerm24nqv ? fakerm24nqv : $["authorCode"], fakerthxo6m($["red618code"], faker3ce6o5 = 0x27))) {
+      return faker1ovib(console["log"]("未填写正确的链接或活动码"), undefined);
+    }
+    if (faker1ovib($["red618_url"] = `https://u.jd.com/${$["red618code"]}`, fakerm24nqv)) {
+      console["log"](`邀请链接: ${$["red618_url"]}`)
+      console["log"](`邀请码: ${$["red618code"]}`)
+    } else {
+      console["log"](`【提示】有问题群内反馈`);
+    }
+    if (faker1ovib(console["log"](''), $["needRemoveCookieIndex"] = [], await fakerypclxk["concTask"](fakergm37sc, fakerxljcwo, fakerq72g2), $["runEnd"] = false, $["needRemoveCookieIndex"]["length"]) > 0x0) {
+      fakerxljcwo = fakerxljcwo["filter"]((fakerehu6sb, fakertd9mvl) => fakerthxo6m($["needRemoveCookieIndex"]["includes"](fakerthxo6m(fakertd9mvl, 0x1, fakerj8vr6j(-38))), fakerj8vr6j(0x27)))
+      $["needRemoveCookieIndex"] = []
+    }
+    const fakertoflk = fakerlc7wjb["getMessage"]();
+    if (fakertoflk) {
+      console["log"](`\n📣 运行结果\n${fakertoflk["replace"](/：/g, " ➜ ")}`);
+    }
+  } catch (e) {
+    console["log"](`❌ 脚本运行遇到了错误\n${e}`);
+  }
+}
+async function fakerq72g2(fakerkf3hge, fakerehu6sb) {
+  var fakerpolyc, fakeru75c5q;
+  fakerpolyc = Object.create(null)
+  fakeru75c5q = []
+  if ($["runEnd"]) {
+    return {
+      ["runEnd"]: true
+    };
+  }
+  const faker95875d = decodeURIComponent(fakerypclxk["getCookieValue"](fakerkf3hge, "pt_pin")),
+    faker28epj = `【账号${fakerehu6sb}】${fakerypclxk["dataMasking"](faker95875d, {
+      ["printWidth"]: 0x6
+    })}：`,
+    fakerz58p8h = fakerlc7wjb["create"](fakerehu6sb, faker95875d);
+  if (faker1payhd["length"] > 0 && (faker1payhd["includes"](faker95875d) || faker1payhd["includes"](encodeURIComponent(faker95875d)))) {
+    return faker1ovib(fakerz58p8h["fix"]("已设置跳过运行当前账号"), console["log"](fakerz58p8h["getInlineContent"]()), $["needRemoveCookieIndex"]["push"](fakerehu6sb), undefined);
+  }
+  const fakerml620h = await fakerypclxk["getLoginStatus"](fakerkf3hge);
+  if (fakerthxo6m(fakerml620h, faker3ce6o5 = 0x27) && typeof fakerml620h === "boolean" && true) {
+    return faker1ovib(console["log"](`${faker28epj}账号无效`), $["needRemoveCookieIndex"]["push"](fakerehu6sb), undefined);
+  }
+  let fakererf2ip = false,
+    fakerzu9rqg = $.red618code,
+    fakerm24nqv,
+    fakergm37sc,
+    fakerwk4xx8;
+  const faker0vfw9 = fakerypclxk["genUA"](faker95875d),
+    faker7uz3oc = "Mozilla/5.0 (iPhone; CPU iPhone OS 16_1_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.1 Mobile/15E148 Safari/604.1",
+    fakere3ebx = fakerkf3hge => fakerkf3hge["split"]('')["reduce"]((fakerkf3hge, fakerehu6sb) => faker1ovib(fakerkf3hge = fakerthxo6m((fakerkf3hge << 0x5) - fakerkf3hge, fakerehu6sb["charCodeAt"](0), fakerj8vr6j(-0x26)), fakerkf3hge & fakerkf3hge), 0),
+    fakerxljcwo = [...new Set(fakerdlfxnm)];
+  if (fakerxljcwo["length"] > 0x0) {
+    var faker4ukp66 = ["floor"];
+    fakerm24nqv = fakerxljcwo[Math[faker4ukp66[0x0]](fakerthxo6m(Math["random"](), fakerxljcwo["length"], faker3ce6o5 = 48))];
+  } else {
+    fakerm24nqv = '';
+  }
+  for (let fakerouo4wj = faker1ovib(fakerrhs9ph = "https://pro.m.jd.com/mall/active/jmyEA4EG3oauSUjpM3o84ed75PU/index.html", 0); fakerouo4wj < fakerxznzv; fakerouo4wj++) {
+    const fakertxqrqq = faker72zsq7["MD5"](faker95875d)["toString"]();
+    let faker6nwyig = fakera9vmrm("fakerjqmbg8", "faker2ztrzn"),
+      faker207o9e = (fakeru75c5q = [fakertxqrqq], fakera9vmrm("fakers3vm4"));
+    if (faker1ovib(fakergm37sc = `__jda=${faker207o9e};__jdb=${faker6nwyig["jdb"]};__jdc=${faker6nwyig["jdc"]};__jdv=${faker6nwyig["jdv"]};shshshfpa=${faker6nwyig["shshshfpa"]};mba_sid=${faker6nwyig["mba_sid"]};mba_muid=${faker6nwyig["mba_muid"]};pre_seq=${faker6nwyig["pre_seq"]};pre_session=${faker6nwyig["pre_session"]};`, ss = await fakerflu7pk($["red618_url"]), ss)) {
+      let faker6f48i8 = ss?.["match"](/(https:\/\/u\.jd\.com\/jda[^']+)/);
+      if (faker6f48i8) {
+        $["hrl"] = faker6f48i8[0x1]
+        await fakerws2o7h(faker6f48i8[0x1])
+      } else {
+        console["log"](`${faker28epj}没有获取到跳转链接`)
+        fakererf2ip = true
+      }
+    } else {
+      console["log"](`${faker28epj}链接失败`)
+      fakererf2ip = true
+    }
+    let fakerrmk9rv = await faker1756ia(faker0vfw9, `https://pro.m.jd.com/mall/active/${fakertoflk}/index.html`, {
+      ["bizId"]: "jd-babelh5",
+      v: "3.2.1.1",
+      qs: `stath=20&navh=44&tttparams=MiCEMF2eyJnTGF0IjoiMjkuNjA2OTI3IiwidW5fYXJlYSI6IjRfNTA5NTBfNTA5NTdfMCIsImRMYXQiOiIiLCJwcnN0YXRlIjoiMCIsImFkZHJlc3NJZCI6IjYyNzEwMzg4MDYiLCJsYXQiOiIiLCJwb3NMYXQiOiIyOS42MDY5MjciLCJwb3NMbmciOiIxMDYuNTY2NzEyIiwiZ3BzX2FyZWEiOiIwXzBfMF8wIiwibG5nIjoiIiwidWVtcHMiOiIwLTAtMCIsImdMbmciOiIxMDYuNTY2NzEyIiwibW9kZWwiOiJpUGhvbmU4LDIiLCJkTG5nIjoiIn70%3D&utm_source=kong&utm_term=626e4b23b76a4568aa45f7b551b5c4ef&d=kizfKM1&useNewLoad=1&uabt=384_3901_1_0-385_3902_1_0&utm_medium=jingfen&cu`
+    });
+    if (faker1ovib(fakerwk4xx8 = fakerrmk9rv["jsToken"], await fakerwlvaa("getCoupons"), fakererf2ip || $["runEnd"])) {
+      break;
+    }
+    if ($["waitTime"]) {
+      await $["wait"]($["waitTime"]);
+    }
+  }
+  if ($["runEnd"]) {
+    return {
+      ["runEnd"]: true
+    };
+  }
+  if ($["waitTime"]) {
+    await $["wait"]($["waitTime"]);
+  }
+  async function fakerflu7pk(fakerehu6sb) {
+    var fakerzxoq6 = ["data"];
+    const fakerxxmny = await fakerypclxk["request"]({
+        ["url"]: fakerehu6sb,
+        ["method"]: "GET",
         ["headers"]: {
-          ["Accept"]: "*/*",
-          ["Accept-Encoding"]: "gzip, deflate, br",
-          ["Accept-Language"]: "zh-CN,zh;q=0.9,en-US;q=0.8,en;q=0.7,en-GB;q=0.6",
-          ["Content-Type"]: "application/x-www-form-urlencoded;charset=UTF-8",
-          ["Connection"]: "keep-alive",
-          ["Host"]: "gia.jd.com",
-          ["Origin"]: OvT5KIy["parseUrl"](BniLr69)?.["origin"] || "https://pro.m.jd.com",
-          ["Referer"]: BniLr69,
-          ["Sec-Fetch-Dest"]: "empty",
-          ["Sec-Fetch-Mode"]: "cors",
-          ["Sec-Fetch-Site"]: "same-site",
-          ["User-Agent"]: VgYNyTy
-        },
-        ["params"]: {
-          a: knDV3a
-        },
-        ["data"]: {
-          d: duR_8gD
+          ["Cookie"]: fakerkf3hge,
+          ["User-Agent"]: faker7uz3oc
         },
         ["proxy"]: null,
-        ["timeout"]: 0xea60,
-        ["debug"]: false
-      };
-    let MInkId = 0,
-      kQVPrbF = null;
-    const ORldMtE = 0x1;
-    while (MInkId < ORldMtE) {
-      const RxgSdcu = await OvT5KIy["request"](mzhhr6);
-      if (LfC6u4(RxgSdcu["success"], maWRLIF(13))) {
-        kQVPrbF = `❌ jsTk 请求失败 ➜ ${RxgSdcu["error"]}`
-        MInkId++
-        continue;
-      }
-      if (LfC6u4(RxgSdcu["data"], maWRLIF(13))) {
-        kQVPrbF = "🚫 jsTk 请求失败 ➜ 无响应数据"
-        MInkId++
-        continue;
-      }
-      try {
-        const TpKTbe = RxgSdcu["data"];
-        if (TpKTbe?.["data"]?.["eid"] && TpKTbe?.["data"]?.["token"]) {
-          return Q6nWU1n(XBU8lys["eid"] = TpKTbe["data"]["eid"], XBU8lys["jsToken"] = TpKTbe["data"]["token"], XBU8lys);
-        }
-        kQVPrbF = `🚫 jsTk 请求异常 ➜ ${JSON["stringify"](TpKTbe)}`;
-      } catch (error) {
-        kQVPrbF = `❌ jsTk 在处理接口响应时遇到了错误 ➜ ${error["message"] || error}`;
-      }
-      MInkId++;
-    }
-    if (MInkId >= ORldMtE) {
-      console["log"](kQVPrbF);
-    }
-  } catch (error) {
-    console["log"](`❌ 在处理 jsTk 时遇到了错误 ➜ ${error["message"] || error}`);
-  }
-  return XBU8lys;
-}
-function TpKTbe(qeV5fNe, VgYNyTy) {
-  var BniLr69 = () => {
-    try {
-      for (var qeV5fNe = [], VgYNyTy = 0x0; 0x20 > VgYNyTy; VgYNyTy++) qeV5fNe[VgYNyTy] = "0123456789abcdef"["charAt"](Math["floor"](LfC6u4(16, Math["random"](), NsaYM3 = -49)));
-      return Q6nWU1n(qeV5fNe[0xe] = '\x34', qeV5fNe[19] = "0123456789abcdef"["charAt"](qeV5fNe[19] & 3 | 8), qeV5fNe[0x8] = qeV5fNe[0xd] = qeV5fNe[0x12] = qeV5fNe[0x17], qeV5fNe["join"](''));
-    } catch (b) {
-      return '';
-    }
-  };
-  try {
-    const ck8s9V = new URL(VgYNyTy),
-      xYNdMPd = ck8s9V["pathname"]["slice"](0, LfC6u4(ck8s9V["pathname"]["lastIndexOf"]("/"), 1, NsaYM3 = -0x5));
-    return {
-      ["version"]: "1.0.0",
-      ["data"]: OvT5KIy["Base64"]["encode"](JSON["stringify"]({
-        ["userAgent"]: qeV5fNe,
-        ["url"]: ck8s9V["hostname"]["concat"](xYNdMPd),
-        ["urlQStr"]: ck8s9V["search"]["slice"](0x1),
-        ["language"]: "zh-CN",
-        ["browser"]: "applewebkit_chrome",
-        ["browserVersion"]: null,
-        os: "NA",
-        ["osVersion"]: "NA",
-        ["screenResolution"]: "736x414",
-        ["timezoneOffset"]: LfC6u4(0x8, maWRLIF(65)),
-        ["sessionStorage"]: "true",
-        ["localStorage"]: "true",
-        ["indexedDb"]: "true",
-        ["openDatabase"]: "false",
-        ["hardwareConcurrency"]: "NA",
-        ["doNotTrack"]: "NA",
-        ["platform"]: "iPhone",
-        ["canvasFp"]: '',
-        ["webglFp"]: '',
-        ["fp"]: WWgjWcG["hash128"]([qeV5fNe["substring"](0, 90), "zh-CN", "applewebkit_chrome", "605.1.15", '\x4e\x41', '\x4e\x41', 0x20, "736x414", LfC6u4(480, NsaYM3 = 65), "sessionStorageKey", "localStorageKey", "indexedDbKey", "openDatabase", '\u004e\u0041', "iPhone", 0xa, '\u004e\u0041', '', null, null]["join"]("~~~"), 31),
-        ["randomId"]: BniLr69()
-      }), "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=")
-    };
-  } catch (e) {
-    return null;
-  }
-}
-function e8xYmP(qeV5fNe, VgYNyTy) {
-  var VxYfgi = () => {
-    try {
-      for (var qeV5fNe = [], VgYNyTy = 0; 32 > VgYNyTy && 1; VgYNyTy++) qeV5fNe[VgYNyTy] = "0123456789abcdef"["charAt"](Math["floor"](LfC6u4(0x10, Math["random"](), NsaYM3 = -0x31)));
-      return Q6nWU1n(qeV5fNe[14] = '\u0034', qeV5fNe[0x13] = "0123456789abcdef"["charAt"](qeV5fNe[0x13] & 3 | 8), qeV5fNe[0x8] = qeV5fNe[0xd] = qeV5fNe[18] = qeV5fNe[23], qeV5fNe["join"](''));
-    } catch (b) {
-      return '';
-    }
-  };
-  try {
-    const BniLr69 = new URL(VgYNyTy),
-      MMxuxk = BniLr69["pathname"]["slice"](0, LfC6u4(BniLr69["pathname"]["lastIndexOf"]("/"), 0x1, maWRLIF(-5)));
-    return {
-      ["version"]: "1.0.0",
-      ["data"]: OvT5KIy["Base64"]["encode"](JSON["stringify"]({
-        ["userAgent"]: qeV5fNe,
-        ["url"]: BniLr69["hostname"]["concat"](MMxuxk),
-        ["urlQStr"]: BniLr69["search"]["slice"](1),
-        ["language"]: "zh-CN",
-        ["browser"]: "applewebkit_chrome",
-        ["browserVersion"]: null,
-        os: '\x4e\x41',
-        ["osVersion"]: "NA",
-        ["screenResolution"]: "932x430",
-        ["timezoneOffset"]: LfC6u4(0x8, NsaYM3 = 65),
-        ["sessionStorage"]: "true",
-        ["localStorage"]: "true",
-        ["indexedDb"]: "true",
-        ["openDatabase"]: "false",
-        ["hardwareConcurrency"]: 0x4,
-        ["doNotTrack"]: "NA",
-        ["platform"]: "iPhone",
-        ["canvasFp"]: VxYfgi(),
-        ["webglFp"]: '',
-        ["fp"]: WWgjWcG["hash128"]([qeV5fNe["substring"](0x0, 0x5a), "zh-CN", "applewebkit_chrome", "605.1.15", "NA", '\x4e\x41', 0x20, "932x430", LfC6u4(0x1e0, maWRLIF(0x41)), "sessionStorageKey", "localStorageKey", "indexedDbKey", "openDatabase", '\x4e\x41', "iPhone", 10, '\x4e\x41', '', null, null]["join"]("~~~"), 0x1f),
-        ["randomId"]: VxYfgi()
-      }), "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=")
-    };
-  } catch (e) {
-    return null;
-  }
-}
-class Kc732T {
-  constructor() {
-    this._defaultVersion = "4.7"
-    this._supportVersionList = ["3.1", "4.1", "4.2", "4.3", "4.4", "4.7"]
-    this._latestAppVersionData = {
-      ["build"]: "169480",
-      ["version"]: "13.2.2"
-    }
-    this._latestIOSVersion = "17.6.1"
-    this.invalidApis = new Set()
-    this.hasLogged = false
-    this._keyMap = {
-      3.1: "wm0!@w_s#ll1flo(",
-      4.1: "HL4|FW#Chc3#q?0)",
-      [4.2]: "DNiHi703B0&17hh1",
-      4.3: "&d74&yWoV.EYbWbZ",
-      [4.4]: "r1T.6Vinpb.k+/a)",
-      [4.7]: "X[FMV04Nfvd?Y6M_"
-    }
-    this._algoMethodMap = {
-      3.1: "HmacSHA256",
-      4.1: "MD5",
-      4.2: "SHA256",
-      4.3: "HmacSHA256",
-      4.4: "MD5",
-      [4.71]: "SHA256",
-      4.72: "HmacSHA256",
-      4.73: "HmacSHA256",
-      [4.7]: "MD5"
-    }
-    this._fvMap = {
-      3.1: "v3.2.0",
-      4.1: "v0.1.6",
-      [4.2]: "h5_npm_v4.2.0",
-      4.3: "h5_file_v4.3.3",
-      4.4: "h5_file_v4.4.0",
-      4.71: "h5_file_v4.7.1",
-      [4.72]: "h5_file_v4.7.2",
-      4.73: "h5_file_v4.7.3",
-      4.7: "h5_file_v4.7.4"
-    }
-    this._timePaddingMap = {
-      3.1: '',
-      4.1: '\u0030\u0034',
-      4.2: '\x37\x34',
-      [4.3]: '\x32\x32',
-      [4.4]: '88',
-      [4.71]: '97',
-      [4.72]: '\u0030\u0037',
-      4.73: '78',
-      4.7: '47'
-    }
-    this._localTokenCipherMap = {
-      [4.2]: {
-        ["prefix"]: 'z7',
-        ["secret"]: "qem7+)g%Dhw5",
-        ["key"]: "x6e@RoHi$Fgy7!5k"
-      },
-      4.3: {
-        ["prefix"]: '\u0030\u004a',
-        ["secret"]: "+WzD<U36rlTf",
-        ["key"]: "ML0Qq&DS81pP/an@"
-      },
-      [4.4]: {
-        ["prefix"]: '\x28\x3e',
-        ["secret"]: "HiO81-Ei89DH",
-        ["key"]: "eHL4|FW#Chc3#q?0"
-      },
-      4.71: {
-        ["prefix"]: '\x63\x77',
-        ["secret"]: "8[8I[]d?960w",
-        ["key"]: "X5g1-CN|7<IvRisX"
-      },
-      4.72: {
-        ["prefix"]: '\u0043\u0032',
-        ["secret"]: "K3rOqML0Qq&D",
-        ["key"]: "5Tb26XFO]@7n?)F="
-      },
-      4.73: {
-        ["prefix"]: '\u0064\u006c',
-        ["secret"]: "A._/XV*bOm%!",
-        ["key"]: "_2/7Z#Uumt!A+!Vq"
-      },
-      4.7: {
-        ["prefix"]: '\u0046\u0058',
-        ["secret"]: "4*iK&33Z|+6)",
-        ["key"]: "gs8&99W04zm5U>Rz"
-      }
-    }
-    this._genAlgoSuffixStrMap = {
-      4.2: "9>5*t5",
-      [4.3]: "Z=<J_2",
-      4.4: "qV!+A!",
-      4.71: "hh1BNE",
-      4.72: "87n8!-",
-      4.73: "kEjxS-",
-      4.7: "Mp(2C1"
-    }
-    this._tokenStorageMap = Object.fromEntries(this._supportVersionList.map(VgYNyTy => [VgYNyTy, {}]))
-    this._genAlgoStorageMap = Object.fromEntries(this._supportVersionList.map(VgYNyTy => [VgYNyTy, {}]))
-    this._fpMap = new Map()
-    this._canvasAndWebglFpMap = new Map()
-    this._customAlgorithmConfigMap = {
-      [4.71]: {
-        ["salt"]: "23k@X!",
-        ["keySlice"]: 0x10
-      },
-      [4.72]: {
-        ["salt"]: "JdM3|5",
-        ["keySlice"]: 7
-      },
-      4.73: {
-        ["salt"]: "=LN6GO",
-        ["keySlice"]: 0x3
-      },
-      [4.7]: {
-        ["salt"]: "7n5<G*",
-        ["keySlice"]: 5
-      }
-    }
-    this._algorithmMap = {
-      [4.7]: this["_genCustomAlgorithm"](this["_customAlgorithmConfigMap"]["4.7"])
-    }
-    this.ADLER32 = this.load_module_ADLER32()
-  }
-  async ["getH5st"](qeV5fNe) {
-    const VgYNyTy = LfC6u4(process["env"]["JD_H5ST_STATE"] === "false", maWRLIF(0xd));
-    try {
-      return VgYNyTy ? await this["_getH5stApi"](qeV5fNe) : await this["_getH5stDefault"](qeV5fNe);
-    } catch (error) {
-      return await this["_getH5stDefault"](qeV5fNe);
-    }
-  }
-  async ["_getH5stApi"](qeV5fNe) {
-    const VgYNyTy = ["https://algo.sass.kfcvme50.tech/h5st", "https://algo.kfcvme50.tech/h5st", "http://h5api.257999.xyz/h5st"],
-      VxYfgi = process["env"]["JD_H5ST_API"],
-      BniLr69 = {
-        ["Content-Type"]: "application/json"
-      },
-      MMxuxk = {
-        ["version"]: qeV5fNe?.["versions"] || "5.1.4",
-        ["body"]: {
-          ["appid"]: qeV5fNe["appid"] || '',
-          ["body"]: JSON["stringify"](qeV5fNe["body"]),
-          ["client"]: qeV5fNe["client"] || '',
-          ["clientVersion"]: qeV5fNe["clientVersion"] || '',
-          ["functionId"]: qeV5fNe["functionId"] || '',
-          ["t"]: Math["round"](Date["now"]())
-        },
-        ["pin"]: qeV5fNe["pin"] || "jd_xxx",
-        ["ua"]: qeV5fNe.ua || "jdapp;iPhone;13.2.2;;;M/5.0;appBuild/169480;jdSupportDarkMode/1;ef/1;ep/%7B%22ciphertype%22%3A5%2C%22cipher%22%3A%7B%22ud%22%3A%22CNqnEJTuCNYyC2S4DtK5ZtTwC2DvCzUmYWSnDzVsZtVvYzqzENHwCm%3D%3D%22%2C%22sv%22%3A%22CJckDs4n%22%2C%22iad%22%3A%22%22%7D%2C%22ts%22%3A1727191087%2C%22hdid%22%3A%22JM9F1ywUPwflvMIpYPok0tt5k9kW4ArJEU3lfLhxBqw%3D%22%2C%22version%22%3A%221.0.3%22%2C%22appname%22%3A%22com.360buy.jdmobile%22%2C%22ridx%22%3A-1%7D;Mozilla/5.0 (iPhone; CPU iPhone OS 17_6_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148;supportJDSHWK/1;",
-        ["appId"]: qeV5fNe["appId"]
-      };
-    if (VxYfgi) {
-      const ck8s9V = await this["makeApiRequest"](VxYfgi, BniLr69, MMxuxk);
-      if (ck8s9V) {
-        return ck8s9V;
-      } else {
-        this["invalidApis"]["add"](VxYfgi);
-      }
-    }
-    for (const xYNdMPd of VgYNyTy) {
-      if (this["invalidApis"]["has"](xYNdMPd)) {
-        continue;
-      }
-      const ck8s9V = await this["makeApiRequest"](xYNdMPd, BniLr69, MMxuxk);
-      if (ck8s9V) {
-        return ck8s9V;
-      } else {
-        this["invalidApis"]["add"](xYNdMPd);
-      }
-    }
-    return {
-      ["paramsData"]: '',
-      ["params"]: ''
-    };
-  }
-  async ["makeApiRequest"](VgYNyTy, VxYfgi, BniLr69) {
-    try {
-      const MMxuxk = await OvT5KIy["request"]({
-          ["url"]: VgYNyTy,
-          ["method"]: "POST",
-          ["headers"]: VxYfgi,
-          ["body"]: BniLr69,
-          ["timeout"]: 0x7530,
-          ["proxy"]: false
-        }),
-        ck8s9V = MMxuxk["data"];
-      if (ck8s9V && ck8s9V["code"] === 200 && ck8s9V["body"] && ck8s9V["body"]["body"] && ck8s9V["body"]["qs"]) {
-        return {
-          ["paramsData"]: ck8s9V["body"]["body"],
-          ["params"]: ck8s9V["body"].qs
-        };
-      } else {
-        if (LfC6u4(this["hasLogged"], NsaYM3 = 13)) {
-          console["log"](LfC6u4("❌ 获取 H5ST 失败，错误信息：" + JSON["stringify"](ck8s9V), " 切换其他API中~", maWRLIF(-5)))
-          this["hasLogged"] = true
-        }
-      }
-    } catch (error) {}
-    return null;
-  }
-  async ["_getH5stDefault"](VgYNyTy) {
-    let VxYfgi = Object["assign"]({}, VgYNyTy, {
-      ["h5st"]: '',
-      ["params"]: '',
-      ["paramsData"]: {}
-    });
-    try {
-      if (LfC6u4(typeof VgYNyTy === "object" && VgYNyTy !== null, NsaYM3 = 13)) {
-        return Q6nWU1n(console["log"]("❌ getH5st 传入参数有误"), VxYfgi);
-      } else {
-        const BniLr69 = ["appId", "appid", "body", "functionId"],
-          MMxuxk = BniLr69["filter"](VxYfgi => LfC6u4(VgYNyTy[VxYfgi], NsaYM3 = 0xd));
-        if (MMxuxk["length"] > 0x0) {
-          return Q6nWU1n(console["log"](`❌ getH5st 传入参数有误，缺少必要参数：${MMxuxk["join"]('\x2c\x20')}`), VxYfgi);
-        }
-      }
-      if (LfC6u4(this["_supportVersionList"]["includes"](VgYNyTy?.["version"]), NsaYM3 = 13)) {
-        VgYNyTy["version"] = this["_defaultVersion"];
-      }
-      const XBU8lys = this["_initParams"](VgYNyTy),
-        bbpLmL = XBU8lys["version"],
-        {
-          ["appid"]: vshZIh,
-          ["body"]: zy6DXaJ,
-          ["client"]: A4Xk1H,
-          ["clientVersion"]: C4ZcXUu,
-          ["functionId"]: OY7Icg0
-        } = VgYNyTy,
-        knDV3a = XBU8lys["appId"];
-      let duR_8gD = XBU8lys["tokenCache"] ? this["_tokenStorageMap"][bbpLmL][knDV3a] : null,
-        mzhhr6 = XBU8lys["tokenCache"] ? this["_genAlgoStorageMap"][bbpLmL][knDV3a] : null;
-      if (LfC6u4(duR_8gD, maWRLIF(0xd)) || LfC6u4(mzhhr6, NsaYM3 = 13)) {
-        if (XBU8lys["localToken"] && LfC6u4(LfC6u4(this["_localTokenCipherMap"][bbpLmL], NsaYM3 = 0xd), NsaYM3 = 13)) {
-          const kQVPrbF = Q6nWU1n(duR_8gD = this["_genToken"](XBU8lys["fp"], this["_localTokenCipherMap"][bbpLmL], bbpLmL), this["_genAlgoSuffixStrMap"][bbpLmL]),
-            OvT5KIy = this["_genAlgo"];
-          mzhhr6 = function (...VgYNyTy) {
-            return OvT5KIy(...VgYNyTy, kQVPrbF);
-          };
-        } else {
-          const s6CK1K = await this["_requestAlgorithm"](XBU8lys);
-          duR_8gD = s6CK1K["token"]
-          mzhhr6 = new Function("return "["concat"](s6CK1K["algo"]))()
-        }
-        if (XBU8lys["tokenCache"]) {
-          this["_tokenStorageMap"][bbpLmL][knDV3a] = duR_8gD
-          this["_genAlgoStorageMap"][bbpLmL][knDV3a] = mzhhr6
-        }
-      }
-      if (LfC6u4(duR_8gD, maWRLIF(13)) && LfC6u4(mzhhr6, maWRLIF(0xd))) {
-        return VxYfgi;
-      }
-      const TpKTbe = {
-        ["appid"]: vshZIh,
-        ["body"]: zy6DXaJ,
-        ["client"]: A4Xk1H,
-        ["clientVersion"]: C4ZcXUu,
-        ["functionId"]: OY7Icg0
-      };
-      if (VgYNyTy?.t && LfC6u4(VgYNyTy.t, maWRLIF(-0x1d)) === "boolean") {
-        VgYNyTy.t = Date["now"]()
-        TpKTbe.t = VgYNyTy.t
-      } else {
-        VgYNyTy.t = '';
-      }
-      if (LfC6u4(TpKTbe["client"], NsaYM3 = 0xd)) {
-        delete TpKTbe["client"];
-      }
-      if (LfC6u4(TpKTbe["clientVersion"], NsaYM3 = 0xd)) {
-        delete TpKTbe["clientVersion"];
-      }
-      const e8xYmP = this["_makeSign"](TpKTbe, duR_8gD, mzhhr6, XBU8lys),
-        Kc732T = {
-          ["functionId"]: OY7Icg0,
-          ["body"]: JSON["stringify"](zy6DXaJ),
-          t: '',
-          ["appid"]: vshZIh,
-          ["client"]: '',
-          ["clientVersion"]: '',
-          ["h5st"]: e8xYmP?.["h5st"] || ''
-        };
-      for (const WWgjWcG of ["t", "client", "clientVersion"]) if (VgYNyTy[WWgjWcG] && true) {
-        Kc732T[WWgjWcG] = VgYNyTy[WWgjWcG];
-      } else {
-        delete Kc732T[WWgjWcG];
-      }
-      Object["assign"](VxYfgi, {
-        ["h5st"]: e8xYmP?.["h5st"] || '',
-        ["params"]: ORldMtE["stringify"](Kc732T),
-        ["paramsData"]: Kc732T
-      });
-    } catch (error) {
-      console["log"](`❌ 在生成 H5 签名时遇到了错误 ${error["message"] || error}`);
-    }
-    return VxYfgi;
-  }
-  ["_initParams"](VgYNyTy) {
-    const MMxuxk = VgYNyTy["version"],
-      ck8s9V = {
-        ["version"]: MMxuxk,
-        ["appId"]: VgYNyTy?.["appId"] || '',
-        ["fv"]: this["_fvMap"][MMxuxk],
-        ["fp"]: '',
-        ua: '',
-        ["sua"]: '',
-        av: '',
-        ["url"]: '',
-        ["og"]: '',
-        ["referer"]: VgYNyTy?.["referer"] || '',
-        ["pin"]: VgYNyTy?.["pin"] || '',
-        ["cookie"]: VgYNyTy?.["cookie"] || '',
-        ["timestamp"]: VgYNyTy?.["timestamp"] || Date["now"](),
-        ["bu1"]: '',
-        ["random"]: '',
-        ["canvas"]: '',
-        ["webglFp"]: '',
-        ["ccn"]: 0x4,
-        ["localToken"]: false,
-        ["tokenCache"]: false
-      };
-    for (const xYNdMPd of ["localToken", "tokenCache"]) if (VgYNyTy["hasOwnProperty"](xYNdMPd) && LfC6u4(VgYNyTy[xYNdMPd], NsaYM3 = -0x1d) === "boolean") {
-      ck8s9V[xYNdMPd] = VgYNyTy[xYNdMPd];
-    }
-    if (VgYNyTy["hasOwnProperty"]("bu1")) {
-      ck8s9V["bu1"] = VgYNyTy["bu1"];
-    }
-    if (VgYNyTy["hasOwnProperty"]("random")) {
-      ck8s9V["random"] = VgYNyTy["random"];
-    } else {
-      ck8s9V["random"] = this["_genRandomStr"](LfC6u4(LfC6u4(this["_algorithmMap"][MMxuxk], NsaYM3 = 0xd), NsaYM3 = 13) ? 11 : 10);
-    }
-    if (VgYNyTy?.["ua"]) {
-      let bbpLmL = VgYNyTy["ua"],
-        vshZIh = bbpLmL["match"](/^[\s\S]*?\(([\s\S]*?)\)/),
-        zy6DXaJ = bbpLmL["match"](/(?<=\/)[0-9]\.0[^'"\n]+/g);
-      if (vshZIh?.["length"] > 0 && zy6DXaJ?.["length"] > 0x0) {
-        ck8s9V.ua = bbpLmL
-        ck8s9V["sua"] = vshZIh[0x1]
-        ck8s9V.av = zy6DXaJ[0]
-      }
-    }
-    if (LfC6u4(ck8s9V["ua"], maWRLIF(0xd))) {
-      let bbpLmL = this["_genUA"](),
-        vshZIh = bbpLmL["match"](/^[\s\S]*?\(([\s\S]*?)\)/),
-        zy6DXaJ = bbpLmL["match"](/(?<=\/)[0-9]\.0[^'"\n]+/g);
-      if (vshZIh?.["length"] > 0x0 && zy6DXaJ?.["length"] > 0x0) {
-        ck8s9V.ua = bbpLmL
-        ck8s9V["sua"] = vshZIh[1]
-        ck8s9V["av"] = zy6DXaJ[0]
-      }
-    }
-    if (Q6nWU1n(ck8s9V["version"] = MMxuxk, ck8s9V["fp"] = this["_fpMap"]["get"](ck8s9V["ua"]) || '', LfC6u4(ck8s9V.fp, maWRLIF(13)))) {
-      if (Q6nWU1n(ck8s9V["fp"] = this[`${"_makeFp"["concat"](ck8s9V["version"]["replace"](".", "_"))}`](), ck8s9V.ua["startsWith"]("jd")) && true) {
-        this["_fpMap"]["set"](ck8s9V.ua, ck8s9V["fp"]);
-      }
-    }
-    const A4Xk1H = this["_canvasAndWebglFpMap"]["get"](ck8s9V.ua) || '';
-    if (LfC6u4(A4Xk1H, maWRLIF(13)) && true) {
-      const C4ZcXUu = this["_genCanvasAndWebglFp"](MMxuxk);
-      if (Q6nWU1n(ck8s9V["canvas"] = C4ZcXUu["canvas"], ck8s9V["webglFp"] = C4ZcXUu["webglFp"], ck8s9V["ua"]["startsWith"]("jd"))) {
-        this["_canvasAndWebglFpMap"]["set"](ck8s9V["ua"], C4ZcXUu);
-      }
-    } else {
-      const {
-        ["canvas"]: OY7Icg0,
-        ["webglFp"]: knDV3a
-      } = A4Xk1H;
-      ck8s9V["canvas"] = OY7Icg0
-      ck8s9V["webglFp"] = knDV3a
-    }
-    if (VgYNyTy?.["url"]) {
-      try {
-        const duR_8gD = new URL(VgYNyTy["url"]);
-        ck8s9V["url"] = duR_8gD["href"]
-        ck8s9V.og = duR_8gD["origin"]
-      } catch {}
-    }
-    return ck8s9V;
-  }
-  async ["_requestAlgorithm"](VgYNyTy) {
-    try {
-      const VxYfgi = this["_getExpandParamsData"](VgYNyTy),
-        BniLr69 = this["_AESEncrypt"](JSON["stringify"](VxYfgi, null, 2), kQVPrbF["enc"]["Utf8"]["parse"](LfC6u4(LfC6u4(this["_algorithmMap"][VgYNyTy["version"]], NsaYM3 = 13), maWRLIF(0xd)) ? "(olf1ll#s-w@!0mw" : "wm0!@w-s#ll1flo("), VgYNyTy["version"]),
-        MMxuxk = {
-          ["version"]: VgYNyTy["version"],
-          fp: VgYNyTy["fp"],
-          ["appId"]: VgYNyTy["appId"],
-          ["timestamp"]: Date["now"](),
-          ["platform"]: "web",
-          ["expandParams"]: BniLr69,
-          fv: VgYNyTy.fv
-        },
-        ck8s9V = {
-          ["url"]: "https://cactus.jd.com/request_algo?g_ty=ajax",
-          ["method"]: "POST",
-          ["headers"]: {
-            ["Content-Type"]: "application/json;charset=utf-8",
-            ["Origin"]: "https://cactus.jd.com",
-            ["Host"]: "cactus.jd.com",
-            ["Accept"]: "*/*",
-            ["User-Agent"]: VgYNyTy?.ua || "Mozilla/5.0 (iPhone; CPU iPhone OS 16_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Mobile/15E148 Safari/604.1 Edg/126.0.0.0"
-          },
-          ["data"]: MMxuxk,
-          ["proxy"]: null,
-          ["timeout"]: 0xea60,
-          ["debug"]: false
-        };
-      let xYNdMPd = 0x0,
-        XBU8lys = null;
-      const bbpLmL = 0x1;
-      while (xYNdMPd < bbpLmL) {
-        const vshZIh = await OvT5KIy["request"](ck8s9V);
-        if (LfC6u4(vshZIh["success"], NsaYM3 = 13)) {
-          XBU8lys = `❌ request_algo 请求失败 ➜ ${vshZIh["error"]}`
-          xYNdMPd++
-          continue;
-        }
-        if (LfC6u4(vshZIh["data"], maWRLIF(13))) {
-          XBU8lys = "🚫 request_algo 请求失败 ➜ 无响应数据"
-          xYNdMPd++
-          continue;
-        }
-        try {
-          const zy6DXaJ = vshZIh["data"];
-          if (zy6DXaJ?.["data"] && zy6DXaJ?.["data"]?.["result"]) {
-            const awPkCm = zy6DXaJ["data"]["result"]?.["algo"],
-              A4Xk1H = zy6DXaJ["data"]["result"]?.["tk"];
-            if (awPkCm && A4Xk1H) {
-              return {
-                ["token"]: A4Xk1H,
-                ["algo"]: awPkCm
-              };
-            }
-          }
-          XBU8lys = `🚫 request_algo 请求异常 ➜ ${JSON["stringify"](zy6DXaJ)}`;
-        } catch (error) {
-          XBU8lys = `❌ request_algo 在处理接口响应时遇到了错误 ➜ ${error["message"] || error}`;
-        }
-        xYNdMPd++;
-      }
-      if (xYNdMPd >= bbpLmL) {
-        console["log"](XBU8lys);
-      }
-    } catch (error) {
-      console["log"](`❌ request_algo 在处理API请求时遇到了错误 ${error["message"] || error}`);
-    }
-    return {
-      ["token"]: '',
-      ["algo"]: ''
-    };
-  }
-  ["_getExpandParamsData"](VgYNyTy) {
-    const BniLr69 = 0x1ae,
-      MMxuxk = 0x3a4,
-      ck8s9V = 0x1ae,
-      xYNdMPd = 932;
-    switch (VgYNyTy["version"]) {
-      case "3.1":
-        return {
-          wc: 0,
-          wd: 0,
-          l: "zh-CN",
-          ["ls"]: "zh-CN,zh",
-          ["ml"]: 0,
-          pl: 0x0,
-          ["av"]: VgYNyTy.av,
-          ["ua"]: VgYNyTy.ua,
-          ["sua"]: VgYNyTy["sua"],
-          pp: VgYNyTy["pin"] ? {
-            ["p1"]: VgYNyTy["pin"],
-            ["p2"]: VgYNyTy["pin"]
-          } : {},
-          ["pp1"]: '',
-          pm: {
-            ["ps"]: "prompt",
-            np: "default"
-          },
-          w: BniLr69,
-          h: MMxuxk,
-          ["ow"]: ck8s9V,
-          oh: xYNdMPd,
-          ["url"]: VgYNyTy["url"],
-          og: VgYNyTy.og,
-          ["pr"]: 1.25,
-          re: VgYNyTy["referer"],
-          ["ai"]: VgYNyTy["appId"],
-          ["fp"]: VgYNyTy.fp
-        };
-      case "4.1":
-        return {
-          wc: 0x0,
-          wd: 0x0,
-          l: "zh-CN",
-          ["ls"]: "zh-CN,zh",
-          ml: 0,
-          pl: 0,
-          ["av"]: VgYNyTy.av,
-          ua: VgYNyTy.ua,
-          ["sua"]: VgYNyTy["sua"],
-          pp: {},
-          ["pp1"]: VgYNyTy["cookie"],
-          pm: {
-            ["ps"]: "prompt",
-            ["np"]: "default"
-          },
-          w: BniLr69,
-          ["h"]: MMxuxk,
-          ow: ck8s9V,
-          ["oh"]: xYNdMPd,
-          ["url"]: VgYNyTy["url"],
-          og: VgYNyTy.og,
-          ["pr"]: 1.25,
-          re: VgYNyTy["referer"],
-          ["random"]: VgYNyTy["random"],
-          ["referer"]: VgYNyTy["referer"],
-          v: VgYNyTy["fv"],
-          ai: VgYNyTy["appId"],
-          fp: VgYNyTy["fp"]
-        };
-      case "4.2":
-        return {
-          wc: 0,
-          wd: 0,
-          l: "zh-CN",
-          ["ls"]: "zh-CN,zh",
-          ml: 0x0,
-          pl: 0,
-          ["av"]: VgYNyTy["av"],
-          ["ua"]: VgYNyTy.ua,
-          ["sua"]: VgYNyTy["sua"],
-          ["pp"]: VgYNyTy["pin"] ? {
-            p1: VgYNyTy["pin"],
-            ["p2"]: VgYNyTy["pin"]
-          } : {},
-          ["extend"]: {
-            pm: 0,
-            wd: 0,
-            ["l"]: 0x0,
-            ["ls"]: 2,
-            wk: 0,
-            ["bu1"]: VgYNyTy["bu1"] || "9.9.9"
-          },
-          ["pp1"]: VgYNyTy["pin"] ? '' : VgYNyTy["cookie"],
-          pm: {
-            ["ps"]: "prompt",
-            np: "default"
-          },
-          ["w"]: BniLr69,
-          h: MMxuxk,
-          ow: ck8s9V,
-          ["oh"]: xYNdMPd,
-          ["url"]: VgYNyTy["url"],
-          ["og"]: VgYNyTy.og,
-          ["pr"]: 1.25,
-          re: VgYNyTy["referer"],
-          ["random"]: VgYNyTy["random"],
-          ["referer"]: VgYNyTy["referer"],
-          v: VgYNyTy["fv"],
-          ai: VgYNyTy["appId"],
-          ["fp"]: VgYNyTy["fp"]
-        };
-      case "4.3":
-        return {
-          ["wc"]: 0,
-          wd: 0,
-          l: "zh-CN",
-          ["ls"]: "zh-CN,zh",
-          ["ml"]: 0x2,
-          ["pl"]: 0x5,
-          ["av"]: VgYNyTy["av"],
-          ua: VgYNyTy["ua"],
-          ["sua"]: VgYNyTy["sua"],
-          pp: VgYNyTy["pin"] ? {
-            p1: VgYNyTy["pin"],
-            ["p2"]: VgYNyTy["pin"],
-            p3: VgYNyTy["pin"]
-          } : {},
-          ["extend"]: {
-            ["wd"]: 0x0,
-            ["l"]: 0,
-            ls: 0x5,
-            wk: 0x0,
-            ["bu1"]: VgYNyTy["bu1"] || "0.1.9",
-            ["bu2"]: 0,
-            ["bu3"]: 100,
-            ["bu4"]: 0x0
-          },
-          ["pp1"]: VgYNyTy["pin"] ? '' : VgYNyTy["cookie"],
-          pm: {
-            ["ps"]: "prompt",
-            ["np"]: "default"
-          },
-          ["w"]: BniLr69,
-          h: MMxuxk,
-          ow: ck8s9V,
-          ["oh"]: xYNdMPd,
-          ["url"]: VgYNyTy["url"],
-          ["og"]: VgYNyTy["og"],
-          pr: 1,
-          re: VgYNyTy["referer"],
-          ["random"]: VgYNyTy["random"],
-          ["referer"]: VgYNyTy["referer"],
-          v: VgYNyTy.fv,
-          ["ai"]: VgYNyTy["appId"],
-          ["fp"]: VgYNyTy.fp
-        };
-      case "4.4":
-        return {
-          ["wc"]: 0,
-          ["wd"]: 0x0,
-          l: "zh-CN",
-          ["ls"]: "zh-CN,zh",
-          ml: 0x0,
-          pl: 0,
-          av: VgYNyTy["av"],
-          ua: VgYNyTy.ua,
-          ["sua"]: VgYNyTy["sua"],
-          pp: VgYNyTy["pin"] ? {
-            ["p1"]: VgYNyTy["pin"],
-            p2: VgYNyTy["pin"]
-          } : {},
-          ["extend"]: {
-            wd: 0,
-            l: 0,
-            ls: 0x5,
-            ["wk"]: 0x0,
-            ["bu1"]: VgYNyTy["bu1"] || "0.1.7",
-            ["bu2"]: 0,
-            ["bu3"]: 0x64,
-            ["bu4"]: 0
-          },
-          ["pp1"]: VgYNyTy["pin"] ? '' : VgYNyTy["cookie"],
-          w: BniLr69,
-          ["h"]: MMxuxk,
-          ["ow"]: ck8s9V,
-          oh: xYNdMPd,
-          ["url"]: VgYNyTy["url"],
-          ["og"]: VgYNyTy.og,
-          ["pr"]: 0x1,
-          re: VgYNyTy["referer"],
-          ["random"]: VgYNyTy["random"],
-          ["referer"]: VgYNyTy["referer"],
-          v: VgYNyTy["fv"],
-          ["ai"]: VgYNyTy["appId"],
-          ["fp"]: VgYNyTy["fp"]
-        };
-      case "4.7":
-        return {
-          wc: 0x0,
-          ["wd"]: 0,
-          l: "zh-CN",
-          ["ls"]: "zh-CN",
-          ml: 2,
-          ["pl"]: 0x5,
-          ["av"]: VgYNyTy["av"],
-          ua: VgYNyTy["ua"],
-          ["sua"]: VgYNyTy["sua"],
-          ["pp"]: VgYNyTy["pin"] ? {
-            ["p1"]: VgYNyTy["pin"]
-          } : {},
-          ["extend"]: {
-            ["wd"]: 0,
-            l: 0x0,
-            ls: 0,
-            ["wk"]: 0,
-            ["bu1"]: VgYNyTy["bu1"] || "0.1.7",
-            ["bu2"]: 0,
-            ["bu3"]: 0x40,
-            ["bu4"]: 0x0,
-            ["bu5"]: 0,
-            ["bu6"]: 0xe,
-            ["bu7"]: '',
-            ["bu8"]: 0
-          },
-          ["pp1"]: VgYNyTy["pin"] ? '' : VgYNyTy["cookie"],
-          ["w"]: BniLr69,
-          ["h"]: MMxuxk,
-          ow: ck8s9V,
-          oh: xYNdMPd,
-          ["url"]: VgYNyTy["url"],
-          ["og"]: VgYNyTy.og,
-          pf: "iPhone",
-          pr: 1,
-          re: VgYNyTy["referer"],
-          ["random"]: VgYNyTy["random"],
-          ["referer"]: VgYNyTy["referer"],
-          ["v"]: VgYNyTy["fv"],
-          ["bu2"]: '',
-          ["canvas"]: VgYNyTy["canvas"],
-          ["canvas1"]: VgYNyTy["canvas"],
-          ["webglFp"]: VgYNyTy["webglFp"],
-          ["webglFp1"]: VgYNyTy["webglFp"],
-          ["ccn"]: VgYNyTy["ccn"],
-          ["ai"]: VgYNyTy["appId"],
-          fp: VgYNyTy.fp
-        };
-      default:
-        return {};
-    }
-  }
-  ["_makeSign"](VgYNyTy, VxYfgi, BniLr69, MMxuxk) {
-    try {
-      const xYNdMPd = MMxuxk["version"],
-        XBU8lys = new Date(MMxuxk["timestamp"]),
-        bbpLmL = `${XBU8lys["getFullYear"]()}${String(LfC6u4(XBU8lys["getMonth"](), 0x1, maWRLIF(-5)))["padStart"](0x2, "0")}${String(XBU8lys["getDate"]())["padStart"](2, '\u0030')}${String(XBU8lys["getHours"]())["padStart"](0x2, '\x30')}${String(XBU8lys["getMinutes"]())["padStart"](0x2, "0")}${String(XBU8lys["getSeconds"]())["padStart"](0x2, '0')}${String(XBU8lys["getMilliseconds"]())["padStart"](0x3, "0")}`,
-        vshZIh = bbpLmL["concat"](this["_timePaddingMap"][xYNdMPd]);
-      let zy6DXaJ = Object["entries"](VgYNyTy)["map"](([VgYNyTy, VxYfgi]) => {
-        if (VgYNyTy === "body") {
-          VxYfgi = kQVPrbF["SHA256"](JSON["stringify"](VxYfgi))["toString"]();
-        }
-        return {
-          ["key"]: VgYNyTy,
-          ["value"]: VxYfgi
-        };
-      });
-      const NsaYM3 = this["_algorithmMap"][xYNdMPd] || kQVPrbF;
-      let A4Xk1H = '',
-        C4ZcXUu = '',
-        OY7Icg0 = '';
-      const knDV3a = zy6DXaJ["map"](VgYNyTy => `${VgYNyTy["key"]}:${VgYNyTy["value"]}`)["join"]('\u0026'),
-        duR_8gD = BniLr69(VxYfgi, MMxuxk.fp, vshZIh, MMxuxk["appId"], NsaYM3)["toString"]() || '',
-        mzhhr6 = this["_algoMethodMap"][xYNdMPd];
-      if (["MD5", "SHA1", "SHA256", "SHA512"]["includes"](mzhhr6)) {
-        A4Xk1H = NsaYM3[mzhhr6](''["concat"](duR_8gD)["concat"](knDV3a)["concat"](duR_8gD))["toString"]();
-      } else {
-        if (["HmacMD5", "HmacSHA1", "HmacSHA256", "HmacSHA512"]["includes"](mzhhr6)) {
-          A4Xk1H = NsaYM3[mzhhr6](''["concat"](knDV3a), ''["concat"](duR_8gD))["toString"]();
-        }
-      }
-      let ORldMtE = {};
-      switch (xYNdMPd) {
-        case "3.1":
-          ORldMtE = {
-            ["sua"]: MMxuxk["sua"],
-            pp: MMxuxk["pin"] ? {
-              ["p1"]: MMxuxk["pin"],
-              ["p2"]: MMxuxk["pin"]
-            } : {},
-            ["fp"]: MMxuxk["fp"]
-          };
-          break;
-        case "4.1":
-          ORldMtE = {
-            ["sua"]: MMxuxk["sua"],
-            ["pp"]: {},
-            ["random"]: MMxuxk["random"],
-            ["referer"]: MMxuxk["referer"],
-            v: MMxuxk.fv,
-            fp: MMxuxk["fp"]
-          };
-          break;
-        case "4.2":
-          ORldMtE = {
-            ["sua"]: MMxuxk["sua"],
-            ["pp"]: MMxuxk["pin"] ? {
-              p1: MMxuxk["pin"],
-              ["p2"]: MMxuxk["pin"]
-            } : {},
-            ["extend"]: {
-              pm: 0x0,
-              ["wd"]: 0x0,
-              ["l"]: 0,
-              ls: 0x2,
-              ["wk"]: 0,
-              ["bu1"]: MMxuxk["bu1"] || "9.9.9"
-            },
-            ["random"]: MMxuxk["random"],
-            ["referer"]: MMxuxk["referer"],
-            v: MMxuxk["fv"],
-            ["fp"]: MMxuxk["fp"]
-          };
-          break;
-        case "4.3":
-          ORldMtE = {
-            ["sua"]: MMxuxk["sua"],
-            pp: MMxuxk["pin"] ? {
-              ["p1"]: MMxuxk["pin"],
-              ["p2"]: MMxuxk["pin"],
-              p3: MMxuxk["pin"]
-            } : {},
-            ["extend"]: {
-              wd: 0x0,
-              l: 0,
-              ls: 0x5,
-              wk: 0x0,
-              ["bu1"]: MMxuxk["bu1"] || "0.1.8",
-              ["bu2"]: LfC6u4(0x1, maWRLIF(0x41)),
-              ["bu3"]: 100,
-              ["bu4"]: 0
-            },
-            ["random"]: MMxuxk["random"],
-            v: MMxuxk.fv,
-            fp: MMxuxk.fp
-          };
-          break;
-        case "4.4":
-          ORldMtE = {
-            ["sua"]: MMxuxk["sua"],
-            ["pp"]: MMxuxk["pin"] ? {
-              ["p1"]: MMxuxk["pin"],
-              p2: MMxuxk["pin"]
-            } : {},
-            ["extend"]: {
-              ["wd"]: 0,
-              ["l"]: 0x0,
-              ["ls"]: 0x5,
-              ["wk"]: 0x0,
-              ["bu1"]: MMxuxk["bu1"] || "0.1.7",
-              ["bu2"]: LfC6u4(1, maWRLIF(0x41)),
-              ["bu3"]: 6,
-              ["bu4"]: 0,
-              ["bu5"]: 0
-            },
-            ["random"]: MMxuxk["random"],
-            v: MMxuxk["fv"],
-            ["fp"]: MMxuxk["fp"]
-          };
-          break;
-        case "4.7":
-          ORldMtE = {
-            ["sua"]: MMxuxk["sua"],
-            pp: MMxuxk["pin"] ? {
-              ["p1"]: MMxuxk["pin"]
-            } : {},
-            ["extend"]: {
-              wd: 0x0,
-              ["l"]: 0,
-              ls: 0x5,
-              ["wk"]: 0,
-              ["bu1"]: MMxuxk["bu1"] || "0.1.7",
-              ["bu2"]: LfC6u4(1, maWRLIF(65)),
-              ["bu3"]: 0x42,
-              ["bu4"]: 0x0,
-              ["bu5"]: 0x0,
-              ["bu6"]: 0xf,
-              ["bu7"]: '',
-              ["bu8"]: 0
-            },
-            ["random"]: MMxuxk["random"],
-            ["v"]: MMxuxk["fv"],
-            ["canvas"]: MMxuxk["canvas"],
-            ["webglFp"]: MMxuxk["webglFp"],
-            ["ccn"]: MMxuxk["ccn"],
-            ["fp"]: MMxuxk.fp
-          };
-      }
-      C4ZcXUu = this["_AESEncrypt"](JSON["stringify"](ORldMtE, null, 2), kQVPrbF["enc"]["Utf8"]["parse"](this["_keyMap"][xYNdMPd]), xYNdMPd);
-      switch (MMxuxk["version"]) {
-        case "4.7":
-          OY7Icg0 = NsaYM3["MD5"](''["concat"](duR_8gD)["concat"](`appid:${VgYNyTy["appid"]}&functionId:${VgYNyTy["functionId"]}`)["concat"](duR_8gD))["toString"]();
-      }
-      const OvT5KIy = [''["concat"](bbpLmL), ''["concat"](MMxuxk["fp"]), ''["concat"](MMxuxk["appId"]), ''["concat"](VxYfgi), ''["concat"](A4Xk1H), ''["concat"](xYNdMPd), ''["concat"](String(MMxuxk["timestamp"])), ''["concat"](C4ZcXUu)];
-      if (OY7Icg0) {
-        OvT5KIy["push"](OY7Icg0);
-      }
-      return {
-        ["_stk"]: zy6DXaJ["map"](VgYNyTy => VgYNyTy["key"])["join"]('\u002c'),
-        ["_ste"]: 1,
-        ["h5st"]: OvT5KIy["join"]('\u003b')
-      };
-    } catch (error) {
-      console["log"](`❌ 遇到了错误 ${error["message"] || error}`);
-    }
-    return {
-      ["_stk"]: '',
-      ["_ste"]: 0,
-      ["h5st"]: ''
-    };
-  }
-  ["_genToken"](qeV5fNe, VgYNyTy, VxYfgi) {
-    const BniLr69 = () => {
-        const qeV5fNe = ["1", '\x32', '\u0033'],
-          VgYNyTy = ['\x2b', "x"],
-          VxYfgi = LfC6u4(0x2, Math["floor"](4 * Math["random"]()), maWRLIF(-0x5));
-        let BniLr69 = '';
-        for (let MMxuxk = 0; MMxuxk < VxYfgi; MMxuxk++) if (Q6nWU1n(BniLr69 += qeV5fNe[Math["floor"](LfC6u4(Math["random"](), 0x3, NsaYM3 = -0x31))], MMxuxk) < VxYfgi - 1) {
-          BniLr69 += VgYNyTy[Math["floor"](LfC6u4(Math["random"](), 0x2, maWRLIF(-0x31)))];
-        }
-        if (BniLr69["length"] < 9) {
-          BniLr69 += this["_genRandomStr"]()["substring"](0, LfC6u4(9, BniLr69["length"], maWRLIF(58)));
-        }
-        const ck8s9V = kQVPrbF["enc"]["Utf8"]["parse"](BniLr69);
-        return kQVPrbF["enc"]["Base64"]["stringify"](ck8s9V)["replace"](/\+/g, '-')["replace"](/\//g, "_")["replace"](/=/g, '');
-      },
-      MMxuxk = qeV5fNe => {
-        function BniLr69(BniLr69) {
-          return BniLr69["map"](MMxuxk => {
-            let ck8s9V = LfC6u4('\x30\x30', (255 & MMxuxk)["toString"](16), NsaYM3 = -0x5);
-            return ck8s9V["slice"](LfC6u4(0x2, NsaYM3 = 65));
-          })["join"]('');
-        }
-        function MMxuxk(MMxuxk) {
-          let ck8s9V = new Uint8Array(MMxuxk["length"]);
-          return Q6nWU1n(ck8s9V["forEach"]((ck8s9V, BniLr69, bbpLmL) => (bbpLmL[BniLr69] = MMxuxk["charCodeAt"](BniLr69), undefined)), BniLr69(ck8s9V));
-        }
-        function ck8s9V(BniLr69) {
-          let MMxuxk = function () {
-              let MMxuxk = new ArrayBuffer(2);
-              return Q6nWU1n(new DataView(MMxuxk)["setInt16"](0, 256, LfC6u4(0, maWRLIF(0xd))), 0x100 === new Int16Array(MMxuxk)[0]);
-            }(),
-            ck8s9V = Math["floor"](LfC6u4(BniLr69, Math["pow"](0x2, 0x20), NsaYM3 = 0x18)),
-            XBU8lys = BniLr69 % Math["pow"](2, 0x20),
-            zy6DXaJ = new ArrayBuffer(0x8),
-            VgYNyTy = new DataView(zy6DXaJ);
-          return Q6nWU1n(MMxuxk ? (VgYNyTy["setUint32"](0x0, XBU8lys, MMxuxk), VgYNyTy["setUint32"](0x4, ck8s9V, MMxuxk)) : (VgYNyTy["setUint32"](0, ck8s9V, MMxuxk), VgYNyTy["setUint32"](0x4, XBU8lys, MMxuxk)), new Uint8Array(zy6DXaJ));
-        }
-        let XBU8lys = '',
-          bbpLmL = Date.now(),
-          vshZIh = VgYNyTy.secret,
-          zy6DXaJ = function (BniLr69, MMxuxk, bbpLmL, zy6DXaJ) {
-            let VgYNyTy = new Uint8Array(0x10),
-              VxYfgi = Q6nWU1n(VgYNyTy.forEach((MMxuxk, VgYNyTy, VxYfgi) => (VxYfgi[VgYNyTy] = BniLr69.charCodeAt(VgYNyTy), undefined)), ck8s9V(MMxuxk)),
-              awPkCm = new Uint8Array(0x2),
-              A4Xk1H = Q6nWU1n(awPkCm.forEach((BniLr69, VgYNyTy, VxYfgi) => (VxYfgi[VgYNyTy] = bbpLmL.charCodeAt(VgYNyTy), undefined)), new Uint8Array(0xc)),
-              Sgwr21 = Q6nWU1n(A4Xk1H.forEach((BniLr69, VgYNyTy, VxYfgi) => (VxYfgi[VgYNyTy] = zy6DXaJ.charCodeAt(VgYNyTy), undefined)), new Uint8Array(38)),
-              wZlU164 = Q6nWU1n((Sgwr21.set(awPkCm), Sgwr21.set(A4Xk1H, 0x2), Sgwr21.set(VxYfgi, 0xe), Sgwr21.set(VgYNyTy, 0x16)), xYNdMPd.buf(Sgwr21)),
-              C4ZcXUu = Q6nWU1n(wZlU164 >>>= 0, LfC6u4("00000000", wZlU164.toString(16), maWRLIF(-0x5)));
-            return C4ZcXUu.substring(LfC6u4(C4ZcXUu.length, 0x8, NsaYM3 = 58));
-          }(qeV5fNe, bbpLmL, VgYNyTy.prefix, vshZIh);
-        return Q6nWU1n(XBU8lys += MMxuxk(zy6DXaJ), XBU8lys += MMxuxk(VgYNyTy["prefix"]), XBU8lys += MMxuxk(vshZIh), XBU8lys += BniLr69(ck8s9V(bbpLmL)), XBU8lys += MMxuxk(qeV5fNe), this["_AESEncrypt"](kQVPrbF["enc"]["Hex"]["parse"](XBU8lys), kQVPrbF["enc"]["Utf8"]["parse"](VgYNyTy["key"]), VxYfgi));
-      },
-      ck8s9V = qeV5fNe => {
-        const VgYNyTy = [qeV5fNe["magic"], qeV5fNe["version"], qeV5fNe["platform"], qeV5fNe["expires"], qeV5fNe["producer"], qeV5fNe["expr"], qeV5fNe["cipher"]]["join"]('');
-        let VxYfgi = xYNdMPd["str"](VgYNyTy),
-          BniLr69 = Q6nWU1n(VxYfgi >>>= 0x0, LfC6u4("00000000", VxYfgi["toString"](16), maWRLIF(-0x5)));
-        return BniLr69["substring"](LfC6u4(BniLr69["length"], 8, maWRLIF(58)));
-      },
-      xYNdMPd = this["ADLER32"],
-      XBU8lys = {
-        ["magic"]: "tk",
-        ["version"]: '\u0030\u0033',
-        ["platform"]: "w",
-        ["expires"]: '\u0034\u0031',
-        ["producer"]: '\u006c',
-        ["expr"]: BniLr69(),
-        ["cipher"]: MMxuxk(qeV5fNe)
-      };
-    return Q6nWU1n(XBU8lys["adler32"] = ck8s9V(XBU8lys), [XBU8lys["magic"], XBU8lys["version"], XBU8lys["platform"], XBU8lys["adler32"], XBU8lys["expires"], XBU8lys["producer"], XBU8lys["expr"], XBU8lys["cipher"]]["join"](''));
-  }
-  ["_genAlgo"](qeV5fNe, VgYNyTy, VxYfgi, BniLr69, MMxuxk, ck8s9V) {
-    const xYNdMPd = (VgYNyTy, VxYfgi, BniLr69) => {
-      let ck8s9V = '';
-      switch (VgYNyTy) {
-        case '\u0031':
-          ck8s9V = "MD5";
-          break;
-        case "2":
-          ck8s9V = "SHA256";
-          break;
-        case '3':
-          ck8s9V = "HmacSHA256";
-      }
-      return VgYNyTy === '\x33' ? BniLr69[ck8s9V](VxYfgi, qeV5fNe)["toString"]() : BniLr69[ck8s9V](VxYfgi)["toString"]();
-    };
-    let XBU8lys = '';
-    const bbpLmL = ''["concat"](qeV5fNe)["concat"](VgYNyTy)["concat"](VxYfgi)["concat"](BniLr69)["concat"](ck8s9V),
-      vshZIh = qeV5fNe["slice"](16, 0x1c),
-      zy6DXaJ = kQVPrbF["enc"]["Utf8"]["stringify"](kQVPrbF["enc"]["Base64"]["parse"](vshZIh["replace"](/-/g, '+')["replace"](/_/g, '\x2f'))),
-      awPkCm = zy6DXaJ["match"](new RegExp("^[123]([x+][123])+"))[0x0]["split"]('');
-    return Q6nWU1n(awPkCm["forEach"]((qeV5fNe, VgYNyTy, VxYfgi) => {
-      if (["1", "2", '\x33']["includes"](qeV5fNe)) {
-        if (VgYNyTy === 0) {
-          XBU8lys = xYNdMPd(qeV5fNe, bbpLmL, MMxuxk);
-        } else {
-          if (VgYNyTy >= 2) {
-            const BniLr69 = VxYfgi[LfC6u4(VgYNyTy, 1, maWRLIF(58))];
-            if (BniLr69 === '+') {
-              XBU8lys += xYNdMPd(qeV5fNe, bbpLmL, MMxuxk);
-            } else {
-              if (BniLr69 === "x") {
-                XBU8lys = xYNdMPd(qeV5fNe, XBU8lys, MMxuxk);
-              }
-            }
-          }
-        }
-      }
-    }), XBU8lys);
-  }
-  ["_genCustomAlgorithm"](qeV5fNe) {
-    const {
-      ["salt"]: VgYNyTy,
-      ["keySlice"]: VxYfgi
-    } = qeV5fNe;
-    let BniLr69 = {
-      ["enc"]: kQVPrbF["enc"]
-    };
-    for (let MMxuxk of ["MD5", "SHA1", "SHA256", "SHA512"]) BniLr69[MMxuxk] = function (qeV5fNe) {
-      return kQVPrbF[MMxuxk](LfC6u4(qeV5fNe, VgYNyTy, NsaYM3 = -0x5));
-    };
-    for (let MMxuxk of ["HmacMD5", "HmacSHA1", "HmacSHA256", "HmacSHA512"]) BniLr69[MMxuxk] = function (qeV5fNe, BniLr69) {
-      return kQVPrbF[MMxuxk](LfC6u4(qeV5fNe, VgYNyTy, NsaYM3 = -5), LfC6u4(BniLr69["slice"](0, VxYfgi)["split"]('')["map"](qeV5fNe => String["fromCharCode"](0x9e - qeV5fNe["charCodeAt"](0)))["reverse"]()["join"](''), BniLr69["slice"](VxYfgi), maWRLIF(-5)));
-    };
-    const ck8s9V = "WVUTSRQPONMLKJIHGFEDCBA-_9876543210zyxwvutsrqponmlkjihgfedcbaZYX"["split"]('')["filter"](Boolean),
-      xYNdMPd = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/="["split"]('')["filter"](Boolean);
-    return Q6nWU1n(BniLr69["enc"]["Base64"]["encode"] = function (qeV5fNe) {
-      let VgYNyTy = Object["fromEntries"](xYNdMPd["map"]((qeV5fNe, VgYNyTy) => [qeV5fNe, ck8s9V[VgYNyTy]])),
-        VxYfgi = '' + qeV5fNe.ciphertext,
-        BniLr69 = LfC6u4(0x3, qeV5fNe.ciphertext.sigBytes % 0x3, NsaYM3 = 58);
-      for (let MMxuxk of Array(BniLr69)) VxYfgi += LfC6u4('0', BniLr69, NsaYM3 = -5);
-      let XBU8lys = new Buffer["from"](VxYfgi, "hex")["toString"]("base64")["split"]('')["reverse"]()["join"]('');
-      return XBU8lys["split"]('')["map"](qeV5fNe => VgYNyTy[qeV5fNe] || qeV5fNe)["join"]('')["replace"](/\+/g, '\u002d')["replace"](/\//g, "_")["replace"](/=/g, '');
-    }, BniLr69);
-  }
-  ["_genCanvasAndWebglFp"](qeV5fNe) {
-    const VgYNyTy = this["_algorithmMap"][qeV5fNe] || kQVPrbF,
-      VxYfgi = `envCollectdata:image/png;base64,${this["_genRandomStr"](0xa, "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ+/")}`,
-      BniLr69 = `${VxYfgi}§extensions:ANGLE_instanced_arrays;EXT_blend_minmax;EXT_clip_control;EXT_color_buffer_half_float;EXT_depth_clamp;EXT_frag_depth;EXT_polygon_offset_clamp;EXT_shader_texture_lod;EXT_texture_filter_anisotropic;EXT_sRGB;KHR_parallel_shader_compile;OES_element_index_uint;OES_fbo_render_mipmap;OES_standard_derivatives;OES_texture_float;OES_texture_half_float;OES_texture_half_float_linear;OES_vertex_array_object;WEBGL_color_buffer_float;WEBGL_compressed_texture_astc;WEBGL_compressed_texture_etc;WEBGL_compressed_texture_etc1;WEBGL_compressed_texture_pvrtc;WEBKIT_WEBGL_compressed_texture_pvrtc;WEBGL_debug_renderer_info;WEBGL_debug_shaders;WEBGL_depth_texture;WEBGL_draw_buffers;WEBGL_lose_context;WEBGL_multi_draw;WEBGL_polygon_mode§extensions:ANGLE_instanced_arrays;EXT_blend_minmax;EXT_clip_control;EXT_color_buffer_half_float;EXT_depth_clamp;EXT_frag_depth;EXT_polygon_offset_clamp;EXT_shader_texture_lod;EXT_texture_filter_anisotropic;EXT_sRGB;KHR_parallel_shader_compile;OES_element_index_uint;OES_fbo_render_mipmap;OES_standard_derivatives;OES_texture_float;OES_texture_half_float;OES_texture_half_float_linear;OES_vertex_array_object;WEBGL_color_buffer_float;WEBGL_compressed_texture_astc;WEBGL_compressed_texture_etc;WEBGL_compressed_texture_etc1;WEBGL_compressed_texture_pvrtc;WEBKIT_WEBGL_compressed_texture_pvrtc;WEBGL_debug_renderer_info;WEBGL_debug_shaders;WEBGL_depth_texture;WEBGL_draw_buffers;WEBGL_lose_context;WEBGL_multi_draw;WEBGL_polygon_mode§w1[1, 1]§w2[1, 511]§w38§w4yes§w58§w624§w78§w816§w932§w1016384§w111024§w1216384§w1316§w1416384§w1531§w1616§w1716§w181024§w19[16384, 16384]§w208§w21WebKit WebGL§w22WebGL GLSL ES 1.0 (1.0)§w230§w24WebKit§w25WebGL 1.0§wuv:Apple Inc.§wur:Apple GPU`;
-    return Q6nWU1n('', {
-      ["canvas"]: VgYNyTy["MD5"](VxYfgi)["toString"](),
-      ["webglFp"]: VgYNyTy["MD5"](BniLr69)["toString"]()
-    });
-  }
-  ["_AESEncrypt"](qeV5fNe, VgYNyTy, VxYfgi) {
-    const BniLr69 = kQVPrbF["enc"]["Utf8"]["parse"](qeV5fNe),
-      MMxuxk = kQVPrbF["AES"]["encrypt"](BniLr69, VgYNyTy, {
-        iv: kQVPrbF["enc"]["Utf8"]["parse"]("0102030405060708"),
-        ["mode"]: kQVPrbF["mode"]["CBC"],
-        ["padding"]: kQVPrbF["pad"]["Pkcs7"]
+        ["debug"]: false,
+        ["timeout"]: 0x7530
       }),
-      ck8s9V = this["_algorithmMap"][VxYfgi];
-    return ck8s9V ? ck8s9V["enc"]["Base64"]["encode"](MMxuxk) : MMxuxk["ciphertext"]["toString"]();
-  }
-  ["_genRandomStr"](qeV5fNe = 0x20, VgYNyTy = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ_-") {
-    const VxYfgi = VgYNyTy["length"];
-    let BniLr69 = '';
-    for (let MMxuxk = 0x0; MMxuxk < qeV5fNe; MMxuxk++) BniLr69 += VgYNyTy["charAt"](Math["floor"](LfC6u4(Math["random"](), VxYfgi, maWRLIF(-49))));
-    return BniLr69;
-  }
-  ["_genUA"]() {
-    const qeV5fNe = ["jdapp", "iPhone", this["_latestAppVersionData"]["version"], '', '', "M/5.0", `appBuild/${this["_latestAppVersionData"]["build"]}`, "jdSupportDarkMode/1", "ef/1", `ep/%7B%22ciphertype%22%3A5%2C%22cipher%22%3A%7B%22ud%22%3A%22DG%3D%3D%22%2C%22sv%22%3A%22CG%3D%3D%22%2C%22iad%22%3A%22%22%7D%2C%22ts%22%3A${Math["floor"](LfC6u4(Date["now"](), 1000, maWRLIF(24)))}%2C%22hdid%22%3A%22JM9F1ywUPwflvMIpYPok0tt5k9kW4ArJEU3lfLhxBqw%3D%22%2C%22version%22%3A%221.0.3%22%2C%22appname%22%3A%22com.360buy.jdmobile%22%2C%22ridx%22%3A-1%7D`, `Mozilla/5.0 (iPhone; CPU iPhone OS ${this["_latestIOSVersion"]["replace"](".", "_")} like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148`, "supportJDSHWK/1", ''];
-    return qeV5fNe["join"]('\u003b');
-  }
-  ["_makeFp3_1"]() {
-    function VgYNyTy(VgYNyTy, MMxuxk) {
-      return LfC6u4(VgYNyTy, Math["floor"](Math["random"]() * (MMxuxk + 0x1 - VgYNyTy)), NsaYM3 = -5);
-    }
-    function VxYfgi(vshZIh, zy6DXaJ) {
-      let awPkCm = [];
-      for (let A4Xk1H = 0x0; A4Xk1H < vshZIh["length"]; A4Xk1H++) {
-        let Sgwr21 = vshZIh[A4Xk1H];
-        if (VgYNyTy(0, vshZIh["length"] - A4Xk1H - 0x1) < zy6DXaJ - awPkCm["length"] && (awPkCm["push"](Sgwr21), awPkCm["length"] == zy6DXaJ)) {
-          break;
+      faker8prnp6 = fakerxxmny[fakerzxoq6[0x0]];
+    let fakerpolyc = fakerxxmny && fakerxxmny["headers"] && (fakerxxmny["headers"]["set-cookie"] || fakerxxmny["headers"]["Set-Cookie"] || '') || '';
+    if (fakerpolyc) {
+      for (let fakeru75c5q of fakerpolyc) {
+        let faker95875d = fakeru75c5q["split"](';')[0]["trim"]();
+        if (faker95875d["split"]('=')[1]) {
+          if (fakergm37sc["indexOf"](faker95875d["split"]("=")[0x1]) == fakerthxo6m(1, faker3ce6o5 = 61)) {
+            fakergm37sc += fakerthxo6m(faker95875d["replace"](/ /g, ''), '; ', fakerj8vr6j(-0x26));
+          }
         }
       }
-      let wZlU164 = '';
-      for (let C4ZcXUu = 0x0; C4ZcXUu < awPkCm["length"]; C4ZcXUu += 1) {
-        let OY7Icg0 = Math["random"]() * (awPkCm["length"] - C4ZcXUu) | 0x0;
-        wZlU164 += awPkCm[OY7Icg0]
-        awPkCm[OY7Icg0] = awPkCm[LfC6u4(awPkCm["length"] - C4ZcXUu, 1, NsaYM3 = 0x3a)]
-      }
-      return wZlU164;
     }
-    function BniLr69(VgYNyTy, ck8s9V) {
-      for (let xYNdMPd = 0x0; xYNdMPd < ck8s9V["length"]; xYNdMPd += 1) {
-        let XBU8lys = VgYNyTy["indexOf"](ck8s9V[xYNdMPd]);
-        LfC6u4(1, NsaYM3 = 65) !== XBU8lys && (VgYNyTy = VgYNyTy["replace"](ck8s9V[xYNdMPd], ''));
-      }
-      return VgYNyTy;
+    return faker8prnp6;
+  }
+  async function fakerws2o7h(fakerehu6sb) {
+    var fakerzxoq6 = {
+      faker9b1dxc: "headers"
+    };
+    const fakerxxmny = await fakerypclxk["request"]({
+      ["url"]: fakerthxo6m(fakerehu6sb, `&h5st=${fakere3ebx(faker7uz3oc)}`, fakerj8vr6j(-0x26)),
+      ["maxRedirects"]: 0x0,
+      ["method"]: "GET",
+      [fakerzxoq6.faker9b1dxc]: {
+        ["Cookie"]: fakerthxo6m(fakergm37sc + ' ', fakerkf3hge, faker3ce6o5 = -38),
+        ["User-Agent"]: faker7uz3oc,
+        ["Referer"]: $["red618_url"]
+      },
+      ["proxy"]: null,
+      ["debug"]: false,
+      ["timeout"]: 30000
+    });
+    let faker8prnp6 = fakerxxmny["headers"];
+    if (faker8prnp6?.["location"]) {
+      let fakerpolyc = faker8prnp6["location"];
+      fakertoflk = fakerpolyc["match"](/\/active\/(\w+)\/index/)?.[1] || "3TifYMpjTrHU5g91ebxzQnnPAVpN"
+      fakerrhs9ph = fakerpolyc
     }
-    let MMxuxk = "0123456789",
-      ck8s9V = VxYfgi(MMxuxk, 0x3),
-      xYNdMPd = VgYNyTy(0x0, 9),
-      XBU8lys = BniLr69(MMxuxk, ck8s9V),
-      bbpLmL = {},
-      vshZIh = Q6nWU1n(bbpLmL["size"] = xYNdMPd, bbpLmL["num"] = XBU8lys, LfC6u4(this["_genRandomStr"](bbpLmL["size"], bbpLmL["num"]) + ck8s9V + this["_genRandomStr"](0xe - (xYNdMPd + 0x3) + 0x1, XBU8lys), xYNdMPd, NsaYM3 = -5)),
-      zy6DXaJ = vshZIh.split(''),
-      awPkCm = [];
-    while (zy6DXaJ["length"] > 0) awPkCm["push"](LfC6u4(9, parseInt(zy6DXaJ["pop"]() || ''), NsaYM3 = 0x3a));
-    return awPkCm["join"]('');
-  }
-  ["_makeFp4_1"]() {
-    return this["_makeFp4"]("uct6d0jhqw", 0x6, 0x9, 14);
-  }
-  ["_makeFp4_2"]() {
-    return this["_makeFp4"]("6d0jhqw3pa", 4, 0xb, 0xe);
-  }
-  ["_makeFp4_3"]() {
-    return this["_makeFp4"]("kl9i1uct6d", 3, 0xc, 10);
-  }
-  ["_makeFp4_4"]() {
-    return this["_makeFp4"]("1uct6d0jhq", 0x4, 11, 8);
-  }
-  ["_makeFp4_7"]() {
-    return this["_makeFp4"]("1uct6d0jhq", 0x5, 0xa, 15);
-  }
-  ["_makeFp4"](VgYNyTy, VxYfgi, BniLr69, MMxuxk) {
-    function ck8s9V(VgYNyTy, VxYfgi) {
-      return LfC6u4(VgYNyTy, Math["floor"](Math["random"]() * (VxYfgi + 1 - VgYNyTy)), maWRLIF(-0x5));
-    }
-    function xYNdMPd(VgYNyTy, VxYfgi) {
-      let BniLr69 = [];
-      for (let MMxuxk = 0; MMxuxk < VgYNyTy["length"] && 1; MMxuxk++) {
-        let Sgwr21 = VgYNyTy[MMxuxk];
-        if (ck8s9V(0, VgYNyTy["length"] - MMxuxk - 0x1) < VxYfgi - BniLr69["length"] && (BniLr69["push"](Sgwr21), BniLr69["length"] == VxYfgi)) {
-          break;
+    let fakeru75c5q = fakerxxmny && fakerxxmny["headers"] && (fakerxxmny["headers"]["set-cookie"] || fakerxxmny["headers"]["Set-Cookie"] || '') || '';
+    if (fakeru75c5q) {
+      for (let faker95875d of fakeru75c5q) {
+        let faker28epj = faker95875d["split"](';')[0]["trim"]();
+        if (faker28epj["split"]("=")[1]) {
+          if (fakergm37sc["indexOf"](faker28epj["split"]("=")[1]) == fakerthxo6m(0x1, faker3ce6o5 = 61)) {
+            fakergm37sc += fakerthxo6m(faker28epj["replace"](/ /g, ''), '; ', faker3ce6o5 = -0x26);
+          }
         }
       }
-      let wZlU164 = '';
-      for (let C4ZcXUu = 0x0; C4ZcXUu < BniLr69["length"]; C4ZcXUu += 0x1) {
-        let OY7Icg0 = Math["random"]() * (BniLr69["length"] - C4ZcXUu) | 0;
-        wZlU164 += BniLr69[OY7Icg0]
-        BniLr69[OY7Icg0] = BniLr69[LfC6u4(BniLr69["length"] - C4ZcXUu, 1, maWRLIF(58))]
-      }
-      return wZlU164;
     }
-    function XBU8lys(VgYNyTy, VxYfgi) {
-      for (let BniLr69 = 0x0; BniLr69 < VxYfgi["length"] && true; BniLr69 += 1) {
-        let MMxuxk = VgYNyTy["indexOf"](VxYfgi[BniLr69]);
-        LfC6u4(1, maWRLIF(0x41)) !== MMxuxk && (VgYNyTy = VgYNyTy["replace"](VxYfgi[BniLr69], ''));
-      }
-      return VgYNyTy;
-    }
-    let bbpLmL = VgYNyTy,
-      vshZIh = xYNdMPd(bbpLmL, VxYfgi),
-      zy6DXaJ = ck8s9V(0, 0x9),
-      NsaYM3 = XBU8lys(bbpLmL, vshZIh),
-      A4Xk1H = {},
-      Sgwr21 = Q6nWU1n(A4Xk1H["size"] = zy6DXaJ, A4Xk1H["num"] = NsaYM3, LfC6u4(this["_genRandomStr"](A4Xk1H["size"], A4Xk1H["num"]) + vshZIh + this["_genRandomStr"](BniLr69 - zy6DXaJ, NsaYM3), zy6DXaJ, maWRLIF(-0x5))),
-      wZlU164 = Sgwr21.split(''),
-      C4ZcXUu = wZlU164.slice(0, MMxuxk),
-      OY7Icg0 = wZlU164.slice(MMxuxk),
-      knDV3a = [];
-    while (C4ZcXUu["length"] > 0 && true) knDV3a["push"](LfC6u4(35, parseInt(C4ZcXUu["pop"](), 36), maWRLIF(58))["toString"](0x24));
-    return knDV3a = knDV3a["concat"](OY7Icg0), knDV3a["join"]('');
+    return fakergm37sc;
   }
-  ["load_module_ADLER32"]() {
-    let VgYNyTy = {};
-    VgYNyTy["version"] = "1.3.1";
-    function VxYfgi(VgYNyTy, VxYfgi) {
-      var BniLr69 = 0x1,
-        MMxuxk,
-        ck8s9V,
-        xYNdMPd,
-        XBU8lys;
-      MMxuxk = 0x0
-      ck8s9V = VgYNyTy.length
-      xYNdMPd = 0x0
-      if (typeof VxYfgi === "number") {
-        BniLr69 = VxYfgi & 65535
-        MMxuxk = VxYfgi >>> 16
-      }
-      for (XBU8lys = 0; XBU8lys < ck8s9V;) {
-        xYNdMPd = LfC6u4(Math["min"](ck8s9V - XBU8lys, 0xa5e), XBU8lys, maWRLIF(-0x5));
-        for (; XBU8lys < xYNdMPd; XBU8lys++) BniLr69 += VgYNyTy["charCodeAt"](XBU8lys) & 0xff, MMxuxk += BniLr69;
-        BniLr69 = LfC6u4(15 * (BniLr69 >>> 16), BniLr69 & 65535, maWRLIF(-5))
-        MMxuxk = LfC6u4(0xf * (MMxuxk >>> 16), MMxuxk & 65535, maWRLIF(-0x5))
-      }
-      return MMxuxk % 0xfff1 << 0x10 | BniLr69 % 65521;
-    }
-    function BniLr69(VgYNyTy, VxYfgi) {
-      var BniLr69 = 0x1,
-        MMxuxk,
-        ck8s9V,
-        xYNdMPd,
-        XBU8lys;
-      MMxuxk = 0x0
-      ck8s9V = VgYNyTy.length
-      xYNdMPd = 0
-      if (typeof VxYfgi === "number") {
-        BniLr69 = VxYfgi & 65535
-        MMxuxk = VxYfgi >>> 0x10 & 65535
-      }
-      for (XBU8lys = 0x0; XBU8lys < ck8s9V;) {
-        xYNdMPd = LfC6u4(Math["min"](ck8s9V - XBU8lys, 0xa5e), XBU8lys, maWRLIF(-5));
-        for (; XBU8lys < xYNdMPd; XBU8lys++) BniLr69 += VgYNyTy[XBU8lys] & 0xff, MMxuxk += BniLr69;
-        BniLr69 = LfC6u4(15 * (BniLr69 >>> 16), BniLr69 & 0xffff, maWRLIF(-5))
-        MMxuxk = LfC6u4(15 * (MMxuxk >>> 0x10), MMxuxk & 65535, maWRLIF(-5))
-      }
-      return MMxuxk % 0xfff1 << 16 | BniLr69 % 0xfff1;
-    }
-    function MMxuxk(VgYNyTy, VxYfgi) {
-      var BniLr69 = 0x1,
-        MMxuxk,
-        ck8s9V,
-        xYNdMPd,
-        XBU8lys,
-        bbpLmL,
-        vshZIh;
-      MMxuxk = 0x0
-      ck8s9V = VgYNyTy.length
-      xYNdMPd = 0x0
-      XBU8lys = 0
-      bbpLmL = 0
-      if (typeof VxYfgi === "number") {
-        BniLr69 = VxYfgi & 0xffff
-        MMxuxk = VxYfgi >>> 16
-      }
-      for (vshZIh = 0; vshZIh < ck8s9V;) {
-        xYNdMPd = Math["min"](LfC6u4(ck8s9V, vshZIh, maWRLIF(58)), 0xb66);
-        while (xYNdMPd > 0) {
-          if (Q6nWU1n(XBU8lys = VgYNyTy["charCodeAt"](vshZIh++), XBU8lys) < 128 && true) {
-            BniLr69 += XBU8lys;
-          } else {
-            if (XBU8lys < 0x800) {
-              BniLr69 += 0xc0 | XBU8lys >> 0x6 & 0x1f
-              MMxuxk += BniLr69
-              --xYNdMPd
-              BniLr69 += 0x80 | XBU8lys & 63
-            } else {
-              if (XBU8lys >= 0xd800 && XBU8lys < 0xe000) {
-                XBU8lys = LfC6u4(XBU8lys & 1023, 0x40, maWRLIF(-0x5))
-                bbpLmL = VgYNyTy["charCodeAt"](vshZIh++) & 1023
-                BniLr69 += 240 | XBU8lys >> 0x8 & 0x7
-                MMxuxk += BniLr69
-                --xYNdMPd
-                BniLr69 += 0x80 | XBU8lys >> 0x2 & 0x3f
-                MMxuxk += BniLr69
-                --xYNdMPd
-                BniLr69 += 0x80 | bbpLmL >> 6 & 0xf | (XBU8lys & 0x3) << 4
-                MMxuxk += BniLr69
-                --xYNdMPd
-                BniLr69 += 128 | bbpLmL & 0x3f
-              } else {
-                BniLr69 += 0xe0 | XBU8lys >> 12 & 0xf
-                MMxuxk += BniLr69
-                --xYNdMPd
-                BniLr69 += 0x80 | XBU8lys >> 0x6 & 0x3f
-                MMxuxk += BniLr69
-                --xYNdMPd
-                BniLr69 += 128 | XBU8lys & 63
+  async function fakero454ek(fakerkf3hge, fakerehu6sb) {
+    try {
+      switch (fakerkf3hge) {
+        case "getCoupons":
+          if (fakerehu6sb["code"] == 0x0) {
+            var fakerzxoq6 = "join";
+            let fakerxxmny = fakerehu6sb?.["data"]?.["couponList"] || [],
+              faker8prnp6 = [];
+            for (let fakerpolyc of fakerxxmny) {
+              let fakeru75c5q = '';
+              switch (fakerpolyc["type"]) {
+                case 1:
+                case 19:
+                  {
+                    fakeru75c5q = fakerthxo6m(fakerxht4bs[fakerpolyc["type"]], `${fakerpolyc["discount"]}元`, fakerj8vr6j(-0x26));
+                    break;
+                  }
+                case 0x3:
+                case 0x11:
+                  {
+                    let fakertrdchy = faker1ovib(fakeru75c5q = fakerthxo6m(fakerxht4bs[fakerpolyc["type"]], fakerpolyc["limitStr"], fakerj8vr6j(-38)), fakerpolyc["quota"] > 0 ? `满${fakerpolyc["quota"]}` : "无门槛");
+                    fakeru75c5q += `(${fakertrdchy}减${fakerpolyc["discount"]})`;
+                    break;
+                  }
+                case 0x6:
+                  {
+                    var fakerml620h = ["quota"];
+                    let fakertrdchy = faker1ovib(fakeru75c5q = fakerthxo6m(fakerxht4bs[fakerpolyc["type"]], fakerpolyc["limitStr"], faker3ce6o5 = -38), fakerpolyc[fakerml620h[0x0]] > 0x0 ? `满${fakerpolyc["quota"]}` : "无门槛");
+                    fakeru75c5q += `(${fakertrdchy}打${fakerpolyc["discount"]}折)`;
+                    break;
+                  }
+                default:
+                  {
+                    fakeru75c5q = fakerxht4bs[fakerpolyc["type"] || "invalid"] || `[未知类型${fakerpolyc["type"]}]`
+                    console["log"](`${faker28epj}${JSON["stringify"](fakerpolyc)}`)
+                    break;
+                  }
               }
+              faker8prnp6["push"](fakeru75c5q);
+            }
+            let faker7k6ebc = faker1ovib(console["log"](`${faker28epj}${faker8prnp6["join"](', ')}`), faker8prnp6["map"](fakerkf3hge => (fakerkf3hge["includes"]("[优惠券]") || fakerkf3hge["includes"]("[打折券]") || fakerkf3hge["includes"]("[立减卷]")) && true ? '' : fakerkf3hge)["filter"](Boolean));
+            fakerz58p8h["insert"](faker7k6ebc[fakerzxoq6](', '));
+          } else {
+            var fakerx1hw81 = {
+              fakerqxs1el: "includes"
+            };
+            if (faker1ovib(console["log"](`${faker28epj}${fakerehu6sb["msg"]}[${fakerehu6sb["code"]}]`), fakerehu6sb["msg"]?.[fakerx1hw81.fakerqxs1el]("领取上限"))) {
+              fakererf2ip = true;
+            }
+            if (fakerehu6sb["msg"]?.["includes"]("未开始")) {
+              $["runEnd"] = true;
             }
           }
-          MMxuxk += BniLr69
-          --xYNdMPd
-        }
-        BniLr69 = LfC6u4(0xf * (BniLr69 >>> 0x10), BniLr69 & 0xffff, maWRLIF(-5))
-        MMxuxk = LfC6u4(0xf * (MMxuxk >>> 0x10), MMxuxk & 0xffff, maWRLIF(-0x5))
+          break;
+        case "shareUnionCoupon":
+          if (fakerehu6sb["code"] == 0) {
+            let fakerm24nqv = fakerehu6sb["data"]["shareUrl"]["match"](/\?s=([^&]+)/) && fakerehu6sb["data"]["shareUrl"]["match"](/\?s=([^&]+)/)[0x1] || '';
+            console["log"](`${faker28epj}分享码: ${fakerm24nqv}`);
+          } else {
+            if (faker1ovib(console["log"](`${faker28epj}${fakerehu6sb["msg"]}`), fakerehu6sb["msg"]?.["includes"]("领取上限"))) {
+              fakererf2ip = true;
+            }
+          }
       }
-      return MMxuxk % 0xfff1 << 0x10 | BniLr69 % 65521;
+    } catch (e) {
+      console["log"](`❌ 未能正确处理 ${fakerkf3hge} 请求响应 ${e["message"] || e}`);
     }
-    return Q6nWU1n(VgYNyTy["bstr"] = VxYfgi, VgYNyTy["buf"] = BniLr69, VgYNyTy["str"] = MMxuxk, VgYNyTy);
+  }
+  async function fakerwlvaa(fakerehu6sb) {
+    if ($["runEnd"]) {
+      return;
+    }
+    let faker8prnp6 = '',
+      fakerpolyc = null,
+      fakeru75c5q = null,
+      faker28epj = {},
+      fakerz58p8h = {};
+    switch (fakerehu6sb) {
+      case "getCoupons":
+        fakerz58p8h = {
+          ["appId"]: "c822a",
+          ["functionId"]: "getCoupons",
+          ["appid"]: "u_hongbao",
+          ["clientVersion"]: fakerypclxk["getLatestAppVersion"](),
+          ["client"]: "apple",
+          ["body"]: {
+            ["platform"]: 3,
+            ["unionActId"]: fakerxsp59r,
+            ["actId"]: fakertoflk,
+            d: fakerzu9rqg,
+            ["unionShareId"]: fakerm24nqv,
+            ["type"]: 0x1,
+            ["qdPageId"]: "MO-J2011-1",
+            ["mdClickId"]: "jxhongbao_ck",
+            ["actType"]: 0x1
+          },
+          ua: faker0vfw9,
+          t: true
+        }
+        faker28epj = await faker5dyqu["getH5st"](fakerz58p8h)
+        faker8prnp6 = "https://api.m.jd.com/api"
+        fakerpolyc = faker28epj["paramsData"]
+        break;
+      case "shareUnionCoupon":
+        fakerz58p8h = {
+          ["appId"]: "c10dc",
+          ["functionId"]: "shareUnionCoupon",
+          ["appid"]: "u_hongbao",
+          ["clientVersion"]: fakerypclxk["getLatestAppVersion"](),
+          ["client"]: "apple",
+          ["body"]: {
+            ["platform"]: 0x4,
+            ["unionActId"]: fakerxsp59r,
+            ["actId"]: fakertoflk,
+            d: fakerzu9rqg,
+            ["unionShareId"]: '',
+            ["supportPic"]: 2
+          },
+          ua: faker0vfw9,
+          t: true
+        }
+        faker28epj = await faker5dyqu["getH5st"](fakerz58p8h)
+        faker8prnp6 = "https://api.m.jd.com/api"
+        fakeru75c5q = Object["assign"]({}, faker28epj["paramsData"])
+        break;
+      default:
+        console["log"](`❌ 未知请求 ${fakerehu6sb}`);
+        return;
+    }
+    const fakertrdchy = {
+      ["x-api-eid-token"]: fakerwk4xx8,
+      ["loginType"]: 2,
+      _: fakerthxo6m(new Date()["getTime"]() + new Date()["getTimezoneOffset"]() * 0x3c * 0x3e8, 28800000, fakerj8vr6j(-38)),
+      ["d_model"]: "0-2-999",
+      ["osVersion"]: fakerypclxk["getLatestIOSVersion"]()
+    };
+    if (fakerpolyc) {
+      fakerpolyc = {
+        ...fakerpolyc,
+        ...fakertrdchy
+      };
+    }
+    if (fakeru75c5q) {
+      fakeru75c5q = {
+        ...fakeru75c5q,
+        ...fakertrdchy
+      };
+    }
+    const fakerml620h = {
+      ["url"]: faker8prnp6,
+      ["method"]: "GET",
+      ["headers"]: {
+        ["accept"]: "*/*",
+        ["Accept-Language"]: "zh-cn",
+        ["Content-Type"]: "application/x-www-form-urlencoded;charset=utf-8",
+        ["Cookie"]: fakerthxo6m(fakergm37sc + ' ', fakerkf3hge, fakerj8vr6j(-38)),
+        ["X-Requested-With"]: "XMLHttpRequest",
+        ["Referer"]: fakerrhs9ph,
+        ["Origin"]: "https://pro.m.jd.com",
+        ["x-rp-client"]: "h5_1.0.0",
+        ["User-Agent"]: faker0vfw9
+      },
+      ["params"]: fakeru75c5q,
+      ["data"]: fakerpolyc,
+      ["timeout"]: 30000,
+      ["httpsTlsOptions"]: {
+        ["secureProtocol"]: "TLSv1_2_method",
+        ["ciphers"]: "ECDHE-RSA-AES256-GCM-SHA384"
+      }
+    };
+    {
+      delete (delete fakerml620h["data"], fakerml620h["headers"]["Content-Type"]);
+    }
+    const faker84feze = 1;
+    let fakerc5h5as = 0x0,
+      faker7k6ebc = null,
+      fakerx1hw81 = false;
+    while (fakerc5h5as < faker84feze) {
+      const fakererf2ip = await fakerypclxk["request"](fakerml620h);
+      if (fakerthxo6m(fakererf2ip["success"], faker3ce6o5 = 0x27)) {
+        faker7k6ebc = `🚫 ${fakerehu6sb} 请求失败 ➜ ${fakererf2ip["error"]}`
+        fakerc5h5as++
+        continue;
+      }
+      if (fakerthxo6m(fakererf2ip["data"], faker3ce6o5 = 39)) {
+        faker7k6ebc = `🚫 ${fakerehu6sb} 请求失败 ➜ 无响应数据`
+        fakerc5h5as++
+        continue;
+      }
+      fakero454ek(fakerehu6sb, fakererf2ip["data"])
+      fakerx1hw81 = false
+      break;
+    }
+    if (fakerc5h5as >= faker84feze) {
+      if (faker1ovib(console["log"](faker7k6ebc), fakerx1hw81)) {
+        $["outFlag"] = true;
+      }
+    }
+  }
+  function fakera9vmrm(fakerkf3hge, fakerehu6sb, fakerzxoq6, fakerxxmny, faker8prnp6, faker95875d) {
+    fakerxxmny = {
+      ["fakert357rk"]: () => {
+        var [fakerkf3hge, fakerehu6sb = "abcdef0123456789"] = fakeru75c5q;
+        let fakerzxoq6 = '';
+        for (let fakerxxmny of fakerkf3hge) fakerzxoq6 += fakerxxmny == 'x' ? fakerehu6sb["charAt"](Math["floor"](fakerthxo6m(Math["random"](), fakerehu6sb["length"], fakerj8vr6j(0x30)))) : fakerxxmny == 'X' ? fakerehu6sb["charAt"](Math["floor"](fakerthxo6m(Math["random"](), fakerehu6sb["length"], faker3ce6o5 = 0x30)))["toUpperCase"]() : fakerxxmny;
+        return fakerzxoq6;
+      },
+      ["fakerjqmbg8"]: () => {
+        let fakerkf3hge = "123",
+          fakerehu6sb = "1",
+          fakerzxoq6 = parseInt(fakerthxo6m(Date["now"](), 0x3e8, fakerj8vr6j(20)))["toString"](),
+          fakerxxmny = fakerthxo6m(fakerzxoq6, parseInt(0x7fffffff * Math["random"]())["toString"](), faker3ce6o5 = -0x26),
+          faker8prnp6 = [fakerkf3hge, fakerehu6sb, [fakerxxmny, fakerehu6sb]["join"]('|'), fakerzxoq6]["join"]("."),
+          faker95875d = fakerkf3hge,
+          faker28epj = [fakerkf3hge, "direct", "-", "none", '-', Date["now"]()["toString"]()]["join"]('|'),
+          fakerpolyc = faker1ovib(faker28epj = encodeURIComponent(faker28epj), fakerthxo6m((fakeru75c5q = ["xxxxxxxx-xxxx-xxxx-xxxxxxxxxxxx"], fakera9vmrm("fakert357rk")) + "-", fakerzxoq6, faker3ce6o5 = -0x26)),
+          fakerz58p8h = "239",
+          fakertrdchy = [fakerz58p8h, fakerehu6sb]["join"]('.'),
+          fakerml620h = [fakerxxmny, fakerz58p8h, Date["now"]()["toString"]()]["join"]("."),
+          faker84feze = fakerthxo6m(Math["round"](5 * Math["random"]()) * 2, 1, faker3ce6o5 = -38)["toString"](),
+          fakerc5h5as = fakerthxo6m(fakerypclxk["genRandomString"](0x20, "abcdef0123456789"), "|278", fakerj8vr6j(-0x26));
+        return {
+          ["jdb"]: faker8prnp6,
+          ["jdc"]: faker95875d,
+          ["jdv"]: faker28epj,
+          ["shshshfpa"]: fakerpolyc,
+          ["mba_sid"]: fakertrdchy,
+          ["mba_muid"]: fakerml620h,
+          ["pre_seq"]: faker84feze,
+          ["pre_session"]: fakerc5h5as
+        };
+      },
+      ["fakerl8icck"]: () => {
+        var [fakerkf3hge] = fakeru75c5q;
+        const fakerehu6sb = new Date(),
+          fakerzxoq6 = faker1ovib(fakerehu6sb["setHours"](0, 0, 0x0, 0x0), fakerehu6sb["getTime"]()),
+          fakerxxmny = parseInt(fakerkf3hge["substring"](0, 8), 16) % 0x7fffffff;
+        return `${fakerzxoq6}${fakerxxmny}`;
+      },
+      ["fakers3vm4"]: () => {
+        var [fakerkf3hge] = fakeru75c5q;
+        let fakerehu6sb = 0x7b,
+          fakerzxoq6 = (fakeru75c5q = [fakerkf3hge], new fakera9vmrm("fakerl8icck", undefined, "fakerq0becm").fakerqrd0cz),
+          fakerxxmny = fakerzxoq6["substr"](0, 10),
+          faker8prnp6 = 0x1;
+        return [fakerehu6sb, fakerzxoq6, fakerxxmny, fakerxxmny, fakerxxmny, faker8prnp6]["join"]('.');
+      }
+    }
+    faker8prnp6 = faker8prnp6
+    if (fakerehu6sb == "faker2ztrzn") {
+      fakeru75c5q = [];
+    }
+    faker95875d = {
+      ["fakert357rk"]: 0x1,
+      ["fakerl8icck"]: 1,
+      ["fakers3vm4"]: 1
+    };
+    function faker28epj() {
+      var fakerehu6sb = function (...fakerehu6sb) {
+          return faker1ovib(fakeru75c5q = fakerehu6sb, fakerxxmny[fakerkf3hge].call(this));
+        },
+        fakerzxoq6 = faker95875d[fakerkf3hge];
+      if (fakerzxoq6) {
+        return fakerjhvl5(fakerehu6sb, fakerzxoq6);
+      }
+      return fakerehu6sb;
+    }
+    faker8prnp6 = fakerehu6sb == "fakerodqrs" ? fakerpolyc[fakerkf3hge] || (fakerpolyc[fakerkf3hge] = faker28epj()) : fakerxxmny[fakerkf3hge]();
+    return fakerzxoq6 == "fakerq0becm" ? {
+      fakerqrd0cz: faker8prnp6
+    } : faker8prnp6;
   }
 }
-const WWgjWcG = (() => {
-  var VgYNyTy = (VxYfgi, BniLr69) => {
-    var MMxuxk = Q6nWU1n((VxYfgi = [VxYfgi[0x0] >>> 16, 65535 & VxYfgi[0], VxYfgi[0x1] >>> 0x10, 65535 & VxYfgi[0x1]], BniLr69 = [BniLr69[0x0] >>> 16, 65535 & BniLr69[0], BniLr69[1] >>> 16, 0xffff & BniLr69[1]]), [0x0, 0, 0, 0x0]);
-    return MMxuxk[3] += LfC6u4(VxYfgi[3], BniLr69[3], NsaYM3 = -0x5), MMxuxk[0x2] += MMxuxk[0x3] >>> 0x10, MMxuxk[0x3] &= 65535, MMxuxk[0x2] += LfC6u4(VxYfgi[2], BniLr69[0x2], maWRLIF(-5)), MMxuxk[0x1] += MMxuxk[2] >>> 0x10, MMxuxk[0x2] &= 65535, MMxuxk[0x1] += LfC6u4(VxYfgi[0x1], BniLr69[1], NsaYM3 = -0x5), MMxuxk[0x0] += MMxuxk[0x1] >>> 0x10, MMxuxk[1] &= 0xffff, MMxuxk[0] += LfC6u4(VxYfgi[0], BniLr69[0], maWRLIF(-5)), MMxuxk[0x0] &= 0xffff, [MMxuxk[0] << 16 | MMxuxk[0x1], MMxuxk[0x2] << 16 | MMxuxk[0x3]];
-  };
-  function VxYfgi(VgYNyTy, VxYfgi) {
-    var BniLr69 = Q6nWU1n((VgYNyTy = [VgYNyTy[0x0] >>> 0x10, 65535 & VgYNyTy[0x0], VgYNyTy[0x1] >>> 16, 65535 & VgYNyTy[0x1]], VxYfgi = [VxYfgi[0] >>> 16, 65535 & VxYfgi[0], VxYfgi[0x1] >>> 0x10, 65535 & VxYfgi[0x1]]), [0x0, 0, 0x0, 0x0]);
-    return BniLr69[0x3] += LfC6u4(VgYNyTy[0x3], VxYfgi[0x3], maWRLIF(-0x31)), BniLr69[0x2] += BniLr69[3] >>> 16, BniLr69[0x3] &= 65535, BniLr69[0x2] += LfC6u4(VgYNyTy[2], VxYfgi[0x3], maWRLIF(-0x31)), BniLr69[0x1] += BniLr69[2] >>> 16, BniLr69[2] &= 65535, BniLr69[0x2] += LfC6u4(VgYNyTy[3], VxYfgi[0x2], maWRLIF(-49)), BniLr69[1] += BniLr69[0x2] >>> 0x10, BniLr69[0x2] &= 0xffff, BniLr69[1] += LfC6u4(VgYNyTy[0x1], VxYfgi[3], maWRLIF(-0x31)), BniLr69[0x0] += BniLr69[0x1] >>> 0x10, BniLr69[1] &= 65535, BniLr69[1] += LfC6u4(VgYNyTy[2], VxYfgi[2], NsaYM3 = -49), BniLr69[0x0] += BniLr69[0x1] >>> 16, BniLr69[0x1] &= 65535, BniLr69[1] += LfC6u4(VgYNyTy[0x3], VxYfgi[1], NsaYM3 = -0x31), BniLr69[0x0] += BniLr69[1] >>> 16, BniLr69[1] &= 65535, BniLr69[0] += LfC6u4(VgYNyTy[0] * VxYfgi[0x3] + VgYNyTy[1] * VxYfgi[2] + VgYNyTy[2] * VxYfgi[0x1], VgYNyTy[3] * VxYfgi[0], maWRLIF(-0x5)), BniLr69[0x0] &= 0xffff, [BniLr69[0x0] << 16 | BniLr69[0x1], BniLr69[2] << 0x10 | BniLr69[0x3]];
-  }
-  function BniLr69(VgYNyTy, VxYfgi) {
-    return 32 === (VxYfgi %= 0x40) ? [VgYNyTy[0x1], VgYNyTy[0]] : VxYfgi < 0x20 ? [VgYNyTy[0] << VxYfgi | VgYNyTy[1] >>> 32 - VxYfgi, VgYNyTy[0x1] << VxYfgi | VgYNyTy[0] >>> 32 - VxYfgi] : [VgYNyTy[0x1] << (VxYfgi -= 32) | VgYNyTy[0x0] >>> 32 - VxYfgi, VgYNyTy[0] << VxYfgi | VgYNyTy[1] >>> 0x20 - VxYfgi];
-  }
-  function MMxuxk(VgYNyTy, VxYfgi) {
-    return 0 === (VxYfgi %= 0x40) ? VgYNyTy : VxYfgi < 32 ? [VgYNyTy[0] << VxYfgi | VgYNyTy[0x1] >>> 0x20 - VxYfgi, VgYNyTy[1] << VxYfgi] : [VgYNyTy[1] << VxYfgi - 0x20, 0x0];
-  }
-  function ck8s9V(VgYNyTy, VxYfgi) {
-    return [VgYNyTy[0] ^ VxYfgi[0x0], VgYNyTy[1] ^ VxYfgi[0x1]];
-  }
-  function xYNdMPd(VgYNyTy) {
-    return VgYNyTy = ck8s9V(VgYNyTy, [0x0, VgYNyTy[0x0] >>> 0x1]), VgYNyTy = ck8s9V(VgYNyTy = VxYfgi(VgYNyTy, [0xff51afd7, 0xed558ccd]), [0x0, VgYNyTy[0] >>> 0x1]), ck8s9V(VgYNyTy = VxYfgi(VgYNyTy, [0xc4ceb9fe, 0x1a85ec53]), [0, VgYNyTy[0] >>> 1]);
-  }
-  return {
-    ["hash128"]: (XBU8lys, bbpLmL) => {
-      for (var vshZIh, zy6DXaJ, A4Xk1H = bbpLmL || 0x0, Sgwr21 = (bbpLmL = (XBU8lys = XBU8lys || '')["length"] % 0x10, LfC6u4(XBU8lys["length"], bbpLmL, NsaYM3 = 58)), wZlU164 = [0, A4Xk1H], A4Xk1H = [0x0, A4Xk1H], C4ZcXUu = [0x87c37b91, 0x114253d5], OY7Icg0 = [0x4cf5ad43, 0x2745937f], knDV3a = 0; knDV3a < Sgwr21; knDV3a += 0x10) vshZIh = [0xff & XBU8lys["charCodeAt"](knDV3a + 4) | (255 & XBU8lys["charCodeAt"](knDV3a + 5)) << 8 | (255 & XBU8lys["charCodeAt"](knDV3a + 6)) << 0x10 | (255 & XBU8lys["charCodeAt"](knDV3a + 0x7)) << 24, 0xff & XBU8lys["charCodeAt"](knDV3a) | (255 & XBU8lys["charCodeAt"](knDV3a + 0x1)) << 0x8 | (255 & XBU8lys["charCodeAt"](knDV3a + 2)) << 16 | (0xff & XBU8lys["charCodeAt"](knDV3a + 3)) << 0x18], zy6DXaJ = [255 & XBU8lys["charCodeAt"](knDV3a + 12) | (0xff & XBU8lys["charCodeAt"](knDV3a + 13)) << 8 | (255 & XBU8lys["charCodeAt"](knDV3a + 14)) << 16 | (0xff & XBU8lys["charCodeAt"](knDV3a + 15)) << 24, 0xff & XBU8lys["charCodeAt"](knDV3a + 8) | (255 & XBU8lys["charCodeAt"](knDV3a + 9)) << 0x8 | (255 & XBU8lys["charCodeAt"](knDV3a + 10)) << 0x10 | (255 & XBU8lys["charCodeAt"](knDV3a + 0xb)) << 0x18], vshZIh = BniLr69(vshZIh = VxYfgi(vshZIh, C4ZcXUu), 0x1f), wZlU164 = VgYNyTy(wZlU164 = BniLr69(wZlU164 = ck8s9V(wZlU164, vshZIh = VxYfgi(vshZIh, OY7Icg0)), 0x1b), A4Xk1H), wZlU164 = VgYNyTy(VxYfgi(wZlU164, [0, 0x5]), [0, 0x52dce729]), zy6DXaJ = BniLr69(zy6DXaJ = VxYfgi(zy6DXaJ, OY7Icg0), 0x21), A4Xk1H = VgYNyTy(A4Xk1H = BniLr69(A4Xk1H = ck8s9V(A4Xk1H, zy6DXaJ = VxYfgi(zy6DXaJ, C4ZcXUu)), 0x1f), wZlU164), A4Xk1H = VgYNyTy(VxYfgi(A4Xk1H, [0, 0x5]), [0x0, 0x38495ab5]);
-      switch (vshZIh = [0, 0], zy6DXaJ = [0x0, 0x0], bbpLmL) {
-        case 0xf:
-          zy6DXaJ = ck8s9V(zy6DXaJ, MMxuxk([0x0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 0xe, maWRLIF(-5)))], 0x30));
-        case 0xe:
-          zy6DXaJ = ck8s9V(zy6DXaJ, MMxuxk([0x0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 13, maWRLIF(-0x5)))], 0x28));
-        case 13:
-          zy6DXaJ = ck8s9V(zy6DXaJ, MMxuxk([0x0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 0xc, maWRLIF(-0x5)))], 32));
-        case 12:
-          zy6DXaJ = ck8s9V(zy6DXaJ, MMxuxk([0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 11, NsaYM3 = -5))], 24));
-        case 11:
-          zy6DXaJ = ck8s9V(zy6DXaJ, MMxuxk([0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 0xa, NsaYM3 = -0x5))], 0x10));
-        case 0xa:
-          zy6DXaJ = ck8s9V(zy6DXaJ, MMxuxk([0x0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 9, maWRLIF(-0x5)))], 0x8));
-        case 9:
-          zy6DXaJ = VxYfgi(zy6DXaJ = ck8s9V(zy6DXaJ, [0x0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 8, maWRLIF(-5)))]), OY7Icg0)
-          A4Xk1H = ck8s9V(A4Xk1H, zy6DXaJ = VxYfgi(zy6DXaJ = BniLr69(zy6DXaJ, 33), C4ZcXUu))
-        case 8:
-          vshZIh = ck8s9V(vshZIh, MMxuxk([0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 7, maWRLIF(-0x5)))], 56));
-        case 7:
-          vshZIh = ck8s9V(vshZIh, MMxuxk([0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 6, maWRLIF(-0x5)))], 0x30));
-        case 6:
-          vshZIh = ck8s9V(vshZIh, MMxuxk([0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 5, NsaYM3 = -0x5))], 40));
-        case 5:
-          vshZIh = ck8s9V(vshZIh, MMxuxk([0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 0x4, NsaYM3 = -0x5))], 32));
-        case 4:
-          vshZIh = ck8s9V(vshZIh, MMxuxk([0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 3, NsaYM3 = -0x5))], 0x18));
-        case 0x3:
-          vshZIh = ck8s9V(vshZIh, MMxuxk([0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 2, maWRLIF(-0x5)))], 0x10));
-        case 0x2:
-          vshZIh = ck8s9V(vshZIh, MMxuxk([0x0, XBU8lys["charCodeAt"](LfC6u4(knDV3a, 1, NsaYM3 = -0x5))], 8));
-        case 0x1:
-          vshZIh = VxYfgi(vshZIh = ck8s9V(vshZIh, [0x0, XBU8lys["charCodeAt"](knDV3a)]), C4ZcXUu)
-          wZlU164 = ck8s9V(wZlU164, vshZIh = VxYfgi(vshZIh = BniLr69(vshZIh, 0x1f), OY7Icg0))
-      }
-      return wZlU164 = VgYNyTy(wZlU164 = ck8s9V(wZlU164, [0x0, XBU8lys["length"]]), A4Xk1H = ck8s9V(A4Xk1H, [0x0, XBU8lys["length"]])), A4Xk1H = VgYNyTy(A4Xk1H, wZlU164), wZlU164 = VgYNyTy(wZlU164 = xYNdMPd(wZlU164), A4Xk1H = xYNdMPd(A4Xk1H)), A4Xk1H = VgYNyTy(A4Xk1H, wZlU164), LfC6u4(("00000000" + (wZlU164[0] >>> 0)["toString"](16))["slice"](LfC6u4(0x8, NsaYM3 = 0x41)) + ("00000000" + (wZlU164[1] >>> 0x0)["toString"](16))["slice"](LfC6u4(8, NsaYM3 = 65)) + ("00000000" + (A4Xk1H[0] >>> 0)["toString"](16))["slice"](LfC6u4(8, maWRLIF(0x41))), ("00000000" + (A4Xk1H[0x1] >>> 0)["toString"](16))["slice"](LfC6u4(0x8, maWRLIF(65))), NsaYM3 = -5);
-    }
-  };
-})();
-module["exports"] = {
-  ["wuxianDefense"]: s6CK1K,
-  ["jsTk"]: RxgSdcu,
-  ["getJdEnvInfo"]: e8xYmP,
-  ["getJdEnvInfov2"]: TpKTbe,
-  ["H5st"]: new Kc732T()
-};
+async function fakereszmo(fakerkf3hge) {
+  const fakerehu6sb = await fakerypclxk["request"]({
+      ["url"]: fakerkf3hge,
+      ["method"]: "GET",
+      ["headers"]: {
+        ["User-Agent"]: "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 Mobile/15E148 Safari/604.1 Edg/87.0.4280.88"
+      },
+      ["proxy"]: null,
+      ["debug"]: false,
+      ["timeout"]: 0x7530
+    }),
+    fakertd9mvl = fakerehu6sb["data"];
+  return fakertd9mvl;
+}
+function fakertxqrqq(fakerirhmu, fakerkf3hge) {
+  return fakerthxo6m(Math["floor"](Math["random"]() * (fakerkf3hge - fakerirhmu)), fakerirhmu, fakerj8vr6j(-0x26));
+}
